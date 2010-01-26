@@ -9,7 +9,17 @@ Welcome to KDr2's Personal Website!
 Hi all, I'm KDr2(you might have seen this online alias ever before somewhere),
 from Beijing, China. And this is a website detailing things about me.
 
-Contents:
+
+Contact Me
+~~~~~~~~~~~~~~~~~~~~
+
+ - skype   : zhuoql
+ - gtalk   : killy.draw\#gmail.com
+ - email   : killy.draw\#gmail.com
+ - twitter : http://twitter.com/KDr2
+
+Other Contents
+~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
