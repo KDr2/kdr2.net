@@ -6,7 +6,7 @@
 Welcome to KDr2's Personal Website!
 ===================================================
 
-Hi all, I'm KDr2(you might hava seen this online alias ever before somewhere),
+Hi all, I'm KDr2(you might have seen this online alias ever before somewhere),
 from Beijing, China. And this is a website detailing things about me.
 
 Contents:
