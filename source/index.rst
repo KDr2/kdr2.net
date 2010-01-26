@@ -8,6 +8,9 @@ Welcome to KDr2's Personal Website!
 
 Hi all, I'm KDr2(you might have seen this online alias ever before somewhere),
 from Beijing, China. And this is a website detailing things about me.
+I built this site with `Sphinx <http://sphinx.pocoo.org/>`_, and I had put its
+reStructuredText sources on `GitHub <http://github.com/KDr2/kdr2.net>`_, you can
+get it freely if you want.
 
 
 Contact Me
