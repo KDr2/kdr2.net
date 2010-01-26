@@ -6,9 +6,6 @@
 Welcome to KDr2's Personal Website!
 ===================================================
 
-About Me
-~~~~~~~~~
-
 
 Contents:
 
