@@ -12,6 +12,15 @@ I built this site with `Sphinx <http://sphinx.pocoo.org/>`_, and I had put its
 reStructuredText sources on `GitHub <http://github.com/KDr2/kdr2.net>`_, you can
 get it freely if you want.
 
+Plan of the year 2010
+~~~~~~~~~~~~~~~~~~~~~~
+
+ - Ameliorate my poor English
+ - Plant peanuts with my `wife <http://miss-understood.net>`_ and my parents at
+   my hometown(Where I was born) at the coming spring
+ - A journey to New Zealand at the end of this fall(the start of next spring at
+   the Southern Hemisphere)
+
 
 Contact Me
 ~~~~~~~~~~~~~~~~~~~~
@@ -37,3 +46,4 @@ Other Contents
 .. * :ref:`modindex`
 .. * :ref:`search`
 
+.. HP Compaq Presario V3742TU(KG568PA)
