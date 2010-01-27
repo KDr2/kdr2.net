@@ -15,7 +15,7 @@ get it freely if you want.
 Plan of the year 2010
 ~~~~~~~~~~~~~~~~~~~~~~
 
- - Ameliorate my poor English
+ - Improve my poor English
  - Plant peanuts with `my wife <http://miss-understood.net>`_ and my parents at
    my hometown(Where I was born) in the coming spring
  - A journey to New Zealand at the end of the fall(the start of next spring at
