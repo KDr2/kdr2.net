@@ -71,7 +71,7 @@ Projects(by reverse chronological order)
  * An extension of AMQP(implemented on RabbitMQ) [02/2009-05/2009] : I
    designed an `message selector` as an extension of AMQP-Spec-0.8, to
    route a certain message in a certain queue to a certain
-   subscriber. And I implemented this on RabbitMQ 5.x.
+   subscriber. And I implemented this on RabbitMQ 1.5.x.
 
  * `Erlix <http://github.com/KDr2/erlix/>`_: the Ruby interface for
    Erlang [Began at 07/2009, and who can take this project over? mail
