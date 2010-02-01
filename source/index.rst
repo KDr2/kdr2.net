@@ -27,8 +27,9 @@ Plan of the year 2010
  - Improve my poor English.
  - Plant peanuts with `my wife <http://miss-understood.net>`_ and my
    parents at my hometown(Where I was born) in the coming spring.
- - A journey to New Zealand(or Australia or North America) at the end
-   of the fall(the start of next spring at the Southern Hemisphere).
+ - A journey to New Zealand/Australia at the end of the fall(the start
+   of next spring at the Southern Hemisphere). Or to North America at
+   the summer.
 
 
 Contact Me
