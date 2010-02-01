@@ -60,7 +60,7 @@ Projects(by reverse chronological order)
    logs in diffrent formats. What you only need is to write an Python
    class(a subclass of a certain class in this application), then you
    will see the result as graphics after you analyze your log-data
-   with the  plugin you just write.
+   with the plugin you just write.
 
  * A webpage visit counter [10/2008-12/2008], which is a `nginx
    <http://nginx.net/>`_ module, using memcached and mysql as its

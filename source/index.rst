@@ -55,3 +55,5 @@ Other Contents
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
+
+.. .. include:: include/comments.rst
