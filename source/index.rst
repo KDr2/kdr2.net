@@ -13,12 +13,13 @@ things about me. I built this site with `Sphinx
 sources on `GitHub <http://github.com/KDr2/kdr2.net>`_, you can get it
 freely if you want.
 
-I'm a programmer, generally I do all of my developments with my
-laptop(HP Compaq Presario V3742TU[KG568PA]), which was installed
-`Debian SID <http://www.debian.org>`_ on it. I can write Python,
-Erlang, Perl, Ruby, C, C++, Java and some more programming languages.
-You can see more about my IT skills and projects experience from
-:ref:`my resume <resume>`.
+I'm a programmer, generally I do all of my developments with my laptop
+(HP Compaq Presario V3742TU[KG568PA], and `this is a screenshot of it
+<http://dl.dropbox.com/u/3039119/screenshot/screenshot-20100202.png>`_),
+which `debian sid <http://www.debian.org>`_ was installed on. I can
+write Python, Erlang, Perl, Ruby, C, C++, Java and some more
+programming languages. You can see more about my IT skills and
+projects experience from :ref:`my resume <resume>`.
 
 
 Plan of the year 2010
