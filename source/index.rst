@@ -50,6 +50,7 @@ Other Contents
 
    scheduler
    resume
+   about
 
 .. Indices and tables
 .. ==================
