@@ -21,6 +21,7 @@ them use |sphinx|_.
 Changelog of this site
 ~~~~~~~~~~~~~~~~~~~~~~
 
+- 02/04/2010 add comments service based on django_ and Ajax.
 - 02/04/2010 remove the blog based on |wordpress|_.
 - 01/31/2010 built the first version with |sphinx|_.
 
