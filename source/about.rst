@@ -1,4 +1,5 @@
 .. about
+.. include:: include/glossary.rst
 
 About This Site
 ====================
@@ -14,8 +15,14 @@ Where is my old blog?
 ~~~~~~~~~~~~~~~~~~~~~~
 
 It's gone, because I hate writting things in an online editor. Since
-now, I will write pages with my emacs in `ReST
-<http://docutils.sourceforge.net/rst.html>`_ format, and compile them
-use `Sphinx <http://sphinx.pocoo.org/>`_.
+now, I will write pages with my emacs in |rst|_ format, and compile
+them use |sphinx|_.
+
+Changelog of this site
+~~~~~~~~~~~~~~~~~~~~~~
+
+- 02/04/2010 remove the blog based on |wordpress|_.
+- 01/31/2010 built the first version with |sphinx|_.
+
 
 .. include:: include/comments.rst
