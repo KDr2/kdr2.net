@@ -40,7 +40,6 @@ Contact Me
  - gtalk   : killy.draw\#gmail.com
  - email   : killy.draw\#gmail.com
  - twitter : http://twitter.com/KDr2
- - blog    : http://kdr2.net/blog
 
 Other Contents
 ~~~~~~~~~~~~~~~~~~~~
@@ -50,6 +49,7 @@ Other Contents
 
    scheduler
    resume
+   blog
    about
 
 .. Indices and tables
