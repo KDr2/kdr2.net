@@ -12,7 +12,7 @@
 
 .. |email| replace:: killy.draw *at* gmail *dot* com
 
-.. third-party external links
+.. third-party external links and jargons#
 
 .. |rst| replace:: reStructuredText
 .. _rst: http://docutils.sourceforge.net/rst.html

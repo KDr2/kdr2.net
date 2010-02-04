@@ -41,6 +41,7 @@ function fill_comments(comments){
         for(var i=0;i<comments.length;i++){
             comments_ul.append($("<li>"+format_comment(comments[i])+"</li>"));
         }
+        $("#cmt_progress").hide();
     });
 }
 
@@ -54,6 +55,8 @@ function post_comment(){
                email:$("#c_email").attr("value"),url:$("#c_url").attr("value"),
                content:$("#c_content").attr("value")};
     if(!validate_comment(cmt_data))return;
+    $("#cmt_progress").text("Posting Comments...");
+    $("#cmt_progress").show();
     $.post("/service/post_comment/", cmt_data,
            function(data){
                if(data!="ERR"){
@@ -63,6 +66,7 @@ function post_comment(){
                }else{
                    alert("Sorry,An Error Occured!");
                }
+               $("#cmt_progress").hide();
            });
 }
 
@@ -78,7 +82,7 @@ function setup_block(){
     var comments_div='<div id="comments" class="body">'+
         '<h2>Comments</h2>'+
         '<ul id="comments_ul" class="simple">'+
-        '</ul><br/><h3>Leave a comment:</h3>'+
+        '</ul><div id="cmt_progress">Loading Comments...</div><br/><h3>Leave a comment:</h3>'+
         //comment form:
         '<p><input name="c_name" value="" type="text" id="c_name" class="cmt_field" /><label for="name" class="label">NAME(required)</label></p>'+
         '<p><input name="c_url" value="" type="text" id="c_url" class="cmt_field" /><label for="url" class="label">SITE</label></p>'+
