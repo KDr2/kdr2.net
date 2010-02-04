@@ -95,5 +95,5 @@ function setup_block(){
 }
 
 if(need_show_comments()){
-    setup_block();
+    $(document).ready(setup_block);
 }
