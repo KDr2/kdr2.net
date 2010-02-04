@@ -1,8 +1,10 @@
 import os
 import sys
+import private
+
 # Django settings for kdr2net  project.
 
-IS_PRO = (sys.hexverion==0x20502f0)
+IS_PRO = (sys.hexversion==0x20502f0)
 DEBUG = not IS_PRO
 TEMPLATE_DEBUG = not IS_PRO
 
@@ -21,9 +23,9 @@ if DEBUG:
     DATABASE_PORT = ''             # Set to empty string for default. Not used with sqlite3.
 else:
     DATABASE_ENGINE = 'mysql'
-    DATABASE_NAME = 'kdr2_net'
-    DATABASE_USER = 'root'
-    DATABASE_PASSWORD = None
+    DATABASE_NAME = private.get_mysql_dbname()
+    DATABASE_USER = private.get_mysql_user()
+    DATABASE_PASSWORD = private.get_mysql_passwd()
     DATABASE_HOST = 'localhost'
     DATABASE_PORT = '3306'
 # Local time zone for this installation. Choices can be found here:
