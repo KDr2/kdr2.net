@@ -16,6 +16,30 @@
         font-size:1em;
         width: 600px;
       }
+      .waiting{
+        float: left;
+        padding: 5px;
+        text-align: center;
+        border: #98DBCC solid 1px;
+        background-color: #EAFF56;
+      }
+
+      .load_succeed{
+        float: left;
+        padding: 5px;
+        text-align: center;
+        border: #98DBCC solid 1px;
+        background-color: #AFDD22;
+      }
+
+      .load_failed{
+        float: left;
+        padding: 5px;
+        text-align: center;
+        border: #98DBCC solid 1px;
+        background-color: #F9906F;
+      }
+
       .label {
         margin-left: 5px;
       }

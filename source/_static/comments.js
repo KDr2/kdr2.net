@@ -35,13 +35,17 @@ function validate_comment(cmt){
 }
 
 function fill_comments(comments){
+    $("#cmt_progress").text("Loading Comments...");
+    $("#cmt_progress").addClass("waiting");
     var comments_ul=$("#comments_ul");
     $.get('/service/get_comments/'+_url(), function(data) {
         var comments=eval(data);
         for(var i=0;i<comments.length;i++){
             comments_ul.append($("<li>"+format_comment(comments[i])+"</li>"));
         }
-        $("#cmt_progress").hide();
+        $("#cmt_progress").addClass("load_succeed");
+        $("#cmt_progress").text("All comments are Loaded");
+        $("#cmt_progress").fadeOut(1500);
     });
 }
 
@@ -55,6 +59,7 @@ function post_comment(){
                email:$("#c_email").attr("value"),url:$("#c_url").attr("value"),
                content:$("#c_content").attr("value")};
     if(!validate_comment(cmt_data))return;
+    $("#cmt_progress").addClass("waiting");
     $("#cmt_progress").text("Posting Comments...");
     $("#cmt_progress").show();
     $.post("/service/post_comment/", cmt_data,
@@ -62,11 +67,13 @@ function post_comment(){
                if(data!="ERR"){
                    append_comment(eval(data)[0]);
                    clear_inputs();
-                   alert("Comment Succeed!");
+                   $("#cmt_progress").addClass("load_succeed");
+                   $("#cmt_progress").text("Comment post succeeded");
                }else{
-                   alert("Sorry,An Error Occured!");
+                   $("#cmt_progress").addClass("load_failed");
+                   $("#cmt_progress").text("Comment post failed!");
                }
-               $("#cmt_progress").hide();
+               $("#cmt_progress").fadeOut(1500);
            });
 }
 
@@ -82,7 +89,7 @@ function setup_block(){
     var comments_div='<div id="comments" class="body">'+
         '<h2>Comments</h2>'+
         '<ul id="comments_ul" class="simple">'+
-        '</ul><div id="cmt_progress">Loading Comments...</div><br/><h3>Leave a comment:</h3>'+
+        '</ul><div id="cmt_progress"></div><br/><h3>Leave a comment:</h3>'+
         //comment form:
         '<p><input name="c_name" value="" type="text" id="c_name" class="cmt_field" /><label for="name" class="label">NAME(required)</label></p>'+
         '<p><input name="c_url" value="" type="text" id="c_url" class="cmt_field" /><label for="url" class="label">SITE</label></p>'+
