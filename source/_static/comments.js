@@ -14,7 +14,8 @@ function _url(){
 }
 
 function format_comment(cmt){
-    return cmt['content'];
+    return "On <b>"+ cmt['date']+"</b>, <b>"+cmt['author']+
+        "</b> said:<br/> &nbsp;&nbsp;"+cmt['content'];
 }
 
 function validate_comment(cmt){
