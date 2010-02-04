@@ -80,11 +80,11 @@ function setup_block(){
         '<ul id="comments_ul" class="simple">'+
         '</ul><br/><h3>Leave a comment:</h3>'+
         //comment form:
-        '<p><input name="c_name" value="" type="text" id="c_name" class="field" /><label for="name" class="label">NAME(required)</label></p>'+
-        '<p><input name="c_url" value="" type="text" id="c_url" class="field" /><label for="url" class="label">SITE</label></p>'+
-        '<p><input name="c_email" value="" type="text" id="c_email" class="field" /><label for="email" class="label">EMAIL</label></p>'+
-        '<p><label for="comment_content">CONTENT:</label><br /><textarea name="c_content" rows="4" cols="60" id="c_content"></textarea></p>'+
-        '<p><input value="Submit Comment" type="button" id="submit_comment"/></p>'+
+        '<p><input name="c_name" value="" type="text" id="c_name" class="cmt_field" /><label for="name" class="label">NAME(required)</label></p>'+
+        '<p><input name="c_url" value="" type="text" id="c_url" class="cmt_field" /><label for="url" class="label">SITE</label></p>'+
+        '<p><input name="c_email" value="" type="text" id="c_email" class="cmt_field" /><label for="email" class="label">EMAIL</label></p>'+
+        '<p><label for="comment_content">CONTENT:</label><br /><textarea name="c_content" rows="4" cols="60" id="c_content"'+
+        ' class="cmt_area"></textarea></p> <p><input value="Submit Comment" type="button" id="submit_comment" class="cmt_field"/></p>'+
         '</div>';
     comments_parent_div.append($(comments_div));
     var comments_ul=$("#comments");
