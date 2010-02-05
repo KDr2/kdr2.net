@@ -1,4 +1,6 @@
 from django.http import HttpResponse
+from django.core.mail import mail_admins
+
 from kdr2net.comments.models import Comment
 import simplejson
 import cgi
@@ -22,7 +24,7 @@ def post_comment(request):
     try:
         comment.save()
         title="[kdr2.net] %s left a message on %s" % (comment.author,comment.target)
-        mail_admins(title, comment.content, fail_silently=True)
+        mail_admins(title, comment.content, fail_silently=False)
         return HttpResponse(simplejson.dumps([comment.dict()]))
-    except:
-        return HttpResponse("ERR")
+    except Exception,e:
+        return HttpResponse("ERR %s" % e)

@@ -1,5 +1,5 @@
 .. comment.rst by KDr2
-.. css and js#
+.. css and js
 
 .. raw:: html
 

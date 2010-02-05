@@ -64,14 +64,14 @@ function post_comment(){
     $("#cmt_progress").show();
     $.post("/service/post_comment/", cmt_data,
            function(data){
-               if(data!="ERR"){
+               if(/^ERR.*/gi.test(data)){
+                   $("#cmt_progress").addClass("load_failed");
+                   $("#cmt_progress").text("Comment post failed!");
+               }else{
                    append_comment(eval(data)[0]);
                    clear_inputs();
                    $("#cmt_progress").addClass("load_succeed");
                    $("#cmt_progress").text("Comment post succeeded");
-               }else{
-                   $("#cmt_progress").addClass("load_failed");
-                   $("#cmt_progress").text("Comment post failed!");
                }
                $("#cmt_progress").fadeOut(1500);
            });
