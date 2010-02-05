@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#-*- coding: utf-8 -*-
+
 import os
 import sys
 import private
@@ -28,6 +31,10 @@ else:
     DATABASE_PASSWORD = private.get_mysql_passwd()
     DATABASE_HOST = 'localhost'
     DATABASE_PORT = '3306'
+
+LANGUAGE_CODE = 'zh-cn'
+DEFAULT_CHARSET ='utf-8'
+
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
