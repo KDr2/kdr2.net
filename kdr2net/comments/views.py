@@ -21,6 +21,8 @@ def post_comment(request):
         )
     try:
         comment.save()
+        title="[kdr2.net] %s left a message on %s" % (comment.author,comment.target)
+        mail_admins(title, comment.content, fail_silently=True)
         return HttpResponse(simplejson.dumps([comment.dict()]))
     except:
         return HttpResponse("ERR")

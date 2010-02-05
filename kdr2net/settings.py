@@ -12,7 +12,7 @@ DEBUG = not IS_PRO
 TEMPLATE_DEBUG = not IS_PRO
 
 ADMINS = (
-    # ('Your Name', 'your_email@domain.com'),
+    ('KDr2', 'killy.draw@gmail.com'),
 )
 
 MANAGERS = ADMINS
@@ -96,3 +96,11 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'kdr2net.comments',
 )
+
+
+#Mail HOST INFO
+EMAIL_HOST="smtp.gmail.com"
+EMAIL_PORT=587
+EMAIL_HOST_USER=private.get_mail_user()
+EMAIL_HOST_PASSWORD=private.get_mail_passwd()
+EMAIL_USE_TLS=True
