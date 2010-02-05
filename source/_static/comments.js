@@ -14,7 +14,7 @@ function _url(){
 }
 
 function format_comment(cmt){
-    return "On <b>"+ cmt['date']+"</b>, <b>"+cmt['author']+
+    return "<b>"+cmt['author']+" ( "+cmt['date']+" )"+
         "</b> said:<br/> &nbsp;&nbsp;"+cmt['content'];
 }
 
@@ -89,7 +89,7 @@ function setup_block(){
     var comments_div='<div id="comments" class="body">'+
         '<h2>Comments</h2>'+
         '<ul id="comments_ul" class="simple">'+
-        '</ul><div id="cmt_progress"></div><br/><h3>Leave a comment:</h3>'+
+        '</ul><div id="cmt_progress"></div><div style="clear:both;"></div><h3>Leave a comment:</h3>'+
         //comment form:
         '<p><input name="c_name" value="" type="text" id="c_name" class="cmt_field" /><label for="name" class="label">NAME(required)</label></p>'+
         '<p><input name="c_url" value="" type="text" id="c_url" class="cmt_field" /><label for="url" class="label">SITE</label></p>'+

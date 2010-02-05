@@ -32,9 +32,6 @@ else:
     DATABASE_HOST = 'localhost'
     DATABASE_PORT = '3306'
 
-LANGUAGE_CODE = 'zh-cn'
-DEFAULT_CHARSET ='utf-8'
-
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
@@ -44,7 +41,7 @@ TIME_ZONE = 'Asia/Shanghai'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-cn'
 
 SITE_ID = 1
 
