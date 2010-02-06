@@ -104,3 +104,4 @@ EMAIL_PORT=587
 EMAIL_HOST_USER=private.get_mail_user()
 EMAIL_HOST_PASSWORD=private.get_mail_passwd()
 EMAIL_USE_TLS=True
+SEND_BROKEN_LINK_EMAILS=False
