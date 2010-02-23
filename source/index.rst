@@ -49,7 +49,7 @@ Other Contents
 
    scheduler
    resume
-   blog
+   blog/index
    about
 
 .. Indices and tables
