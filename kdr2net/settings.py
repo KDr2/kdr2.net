@@ -95,6 +95,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.admin',
     'kdr2net.comments',
+    'kdr2net.feeds',
 )
 
 

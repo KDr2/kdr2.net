@@ -6,6 +6,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 import kdr2net.comments.views
+import kdr2net.feeds.views
 
 urlpatterns = patterns(
     '',
@@ -18,8 +19,9 @@ urlpatterns = patterns(
         # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     (r'^admin/', include(admin.site.urls)),
-    (r'service/post_comment/',kdr2net.comments.views.post_comment),
-    (r'service/get_comments/(.*)',kdr2net.comments.views.get_comments),
+    (r'service/post_comment/', kdr2net.comments.views.post_comment),
+    (r'service/get_comments/(.*)', kdr2net.comments.views.get_comments),
+    (r'service/feed/rss/?', kdr2net.feeds.views.rss2_0),
     (r'service/static/(?P<path>.*)$', 'django.views.static.serve',
      {'document_root': settings.MEDIA_ROOT}),
     )
