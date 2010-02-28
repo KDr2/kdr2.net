@@ -22,7 +22,9 @@ def _changelog():
     clfile=os.path.join(site_dir,"source/changelog.ini")
     cfg=ConfigParser()
     cfg.read(clfile)
-    return map(lambda x:_section2rssitem(cfg,x),cfg.sections())
+    keys=cfg.sections()
+    keys=sorted(keys,reverse=True)
+    return map(lambda x:_section2rssitem(cfg,x),keys)
 
 
 def _section2rssitem(cfg,section):
