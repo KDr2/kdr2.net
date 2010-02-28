@@ -30,7 +30,7 @@ def _changelog():
 
 def _section2rssitem(cfg,section):
     d=datetime.datetime.strptime(section,"%Y-%m-%d %H:%M")
-    ret={'pubdate':d.strftime("%a, %d %b %Y %H:%M:%S +0000")}
+    ret={'pubdate':d.strftime("%a, %d %b %Y %H:%M:%S +0800")}
     keys=['title','link','author','cats','desc','content']
     for key in keys:
         ret[key]=cfg.get(section,key)
