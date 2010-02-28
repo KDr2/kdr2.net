@@ -3,7 +3,7 @@
  */
 
 function need_show_comments(){
-    return /^http:\/\//.test(window.location);
+    return /^https?:\/\//.test(window.location);
 }
 
 function _url(){

@@ -40,6 +40,7 @@ Contact Me
  - gtalk   : |email|
  - email   : |email|
  - twitter : |mytwt|_
+ - Feed    : |rss|_
 
 Other Contents
 ~~~~~~~~~~~~~~~~~~~~

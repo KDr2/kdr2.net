@@ -9,7 +9,7 @@ Personal Infomation
 * Birth : 1983.07.23
 * Email : killy.draw\#gmail.com
 
-.. * CellPhone : +86 13522462633
+.. * CellPhone : +86 135****2633
 
 Education
 -------------

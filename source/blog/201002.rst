@@ -3,4 +3,12 @@
 Blog of Feb 2010
 =====================
 
-Nothing now.
+.. _blog_201002:
+
+The Chinese Spring Festival
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Nothing happends on this peaceful holiday.
+
+
+.. include:: include/comments.rst
