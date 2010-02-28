@@ -11,4 +11,4 @@ The Chinese Spring Festival
 Nothing happends on this peaceful holiday.
 
 
-.. include:: include/comments.rst
+.. include:: ../include/comments.rst
