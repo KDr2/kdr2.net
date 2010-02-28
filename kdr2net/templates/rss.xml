@@ -32,7 +32,7 @@
 
       <category><![CDATA[{{ cats }}]]></category>
 
-      <guid isPermaLink="false">{{ itme.link }}</guid>
+      <guid isPermaLink="false">{{ item.link }}</guid>
       <description>
         <![CDATA[{{ item.desc }}]]>
       </description>

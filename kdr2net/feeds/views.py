@@ -2,6 +2,7 @@
 #author : KDr2
 
 import os
+import datetime
 
 from django.http import HttpResponse
 from django.template import Context, loader
@@ -28,7 +29,8 @@ def _changelog():
 
 
 def _section2rssitem(cfg,section):
-    ret={'pubdate':section}
+    d=datetime.datetime.strptime(section,"%Y-%m-%d %H:%M")
+    ret={'pubdate':d.strftime("%a, %d %b %Y %H:%M:%S +0000")}
     keys=['title','link','author','cats','desc','content']
     for key in keys:
         ret[key]=cfg.get(section,key)
