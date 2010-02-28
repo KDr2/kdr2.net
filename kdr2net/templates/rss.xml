@@ -12,7 +12,7 @@
     <title>KDr2</title>
     <atom:link href="http://kdr2.net/service/feed/rss" rel="self" type="application/rss+xml" />
     <link>http://kdr2.net</link>
-    <description>Things About KDr2.</description>
+    <description>KDr2's Personal Site.</description>
     <lastBuildDate>Tue, 22 Dec 2009 02:15:47 +0000</lastBuildDate>
 
     <generator>KDr2's Persnal Site</generator>
@@ -30,13 +30,11 @@
       <pubDate>{{ item.pubdate }}</pubDate>
       <dc:creator>{{ item.author }}</dc:creator>
 
-      {% for cat in item.cats %}
-      <category><![CDATA[{{ cat }}]]></category>
-      {% endfor %}
+      <category><![CDATA[{{ cats }}]]></category>
 
       <guid isPermaLink="false">{{ itme.link }}</guid>
       <description>
-        <![CDATA[{{ item.description }}]]>
+        <![CDATA[{{ item.desc }}]]>
       </description>
       <content:encoded>
         <![CDATA[{{ item.content}} ]]>
