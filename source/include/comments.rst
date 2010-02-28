@@ -44,4 +44,4 @@
         margin-left: 5px;
       }
   </style>
-  <script type="text/javascript" src="_static/comments.js"></script>
+  <script type="text/javascript" src="/_static/comments.js"></script>
