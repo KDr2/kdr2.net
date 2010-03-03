@@ -6,7 +6,7 @@ import simplejson
 import cgi
 
 def get_comments(request,url):
-    comments=Comment.objects.filter(target=url)
+    comments=Comment.objects.filter(target=url).order_by('date')
     comments_map=map(Comment.dict,comments)
     return HttpResponse(simplejson.dumps(comments_map))
 
