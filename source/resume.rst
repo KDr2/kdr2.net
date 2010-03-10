@@ -46,7 +46,7 @@ Tools I am familiar with and often use
  * jQuery
  * apache/nginx/bind(named)/proftpd/subversion/git/trac
  * MySQL,MySQl-Proxy,SphinxSearch,SQLite
- * Emacs/Sphinx/WordPress
+ * |emacs|_/|sphinx|_/|wordpress|_
 
 
 Projects(by reverse chronological order)
@@ -101,8 +101,8 @@ What kind of jobs I prefer?
 ----------------------------------
 
 I like working with linux, python, erlang, javascript, c, c++. I also
-like typing code in `Emacs <http://www.gnu.org/software/emacs/>`_. I
-can do linux system programming, web development, and some more things
-which are relevant to the technologies listed on my :ref:`it skills
-list <it_skills_list>`. After all, I prefer a job that can be done
-without MicroSoft Windows(and without Microsoft Office, certainly).
+like typing code in |emacs|_. I can do linux system programming, web
+development, and some more things which are relevant to the
+technologies listed on my :ref:`it skills list
+<it_skills_list>`. After all, I prefer a job that can be done without
+MicroSoft Windows(and without Microsoft Office, certainly).

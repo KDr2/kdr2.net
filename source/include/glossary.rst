@@ -23,6 +23,9 @@
 .. |sphinx| replace:: Sphinx
 .. _sphinx: http://sphinx.pocoo.org/
 
+.. |emacs| replace:: Emacs
+.. _emacs: http://www.gnu.org/software/emacs/
+
 .. |wordpress| replace:: WordPress
 .. _wordpress: http://www.wordpress.org
 

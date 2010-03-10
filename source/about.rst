@@ -15,7 +15,7 @@ Where is my old blog?
 ~~~~~~~~~~~~~~~~~~~~~~
 
 It's gone, because I hate writting things in an online editor. Since
-now, I will write pages with my emacs in |rst|_ format, and compile
+now, I will write pages with my |emacs|_ in |rst|_ format, and compile
 them use |sphinx|_.
 
 Changelog of this site
