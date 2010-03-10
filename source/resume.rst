@@ -1,5 +1,7 @@
 .. _resume:
 
+.. include:: include/glossary.rst
+
 KDr2's Resume
 ======================
 
