@@ -26,7 +26,7 @@ Recently Activity
 ~~~~~~~~~~~~~~~~~~~~~
 
 I'll go to the 'party' of |emacs|_ users in Beijing. see
-`HERE<http://www.newsmth.net/bbscon.php?bid=573&id=86230>`_.
+`HERE <http://www.newsmth.net/bbscon.php?bid=573&id=86230>`_.
 
 .. Plan of the year 2010
    ~~~~~~~~~~~~~~~~~~~~~~
