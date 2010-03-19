@@ -22,13 +22,18 @@ languages. You can see more about my IT skills and projects experience
 from :ref:`my resume <resume>`.
 
 
-Plan of the year 2010
-~~~~~~~~~~~~~~~~~~~~~~
+Recently Activity
+~~~~~~~~~~~~~~~~~~~~~
 
- - Improve my poor English.
- - Plant peanuts with |my wife|_ and my parents at my hometown(Where I
+I'll go to the 'party' of |emacs|_ users in Beijing. see
+`HERE<http://www.newsmth.net/bbscon.php?bid=573&id=86230>`_.
+
+.. Plan of the year 2010
+   ~~~~~~~~~~~~~~~~~~~~~~
+   - Improve my poor English.
+   - Plant peanuts with |my wife|_ and my parents at my hometown(Where I
    was born) in the coming spring.
- - A journey to New Zealand/Australia at the end of the fall(the start
+   - A journey to New Zealand/Australia at the end of the fall(the start
    of next spring at the Southern Hemisphere). Or to North America at
    the summer.
 
