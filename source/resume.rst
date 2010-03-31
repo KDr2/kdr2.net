@@ -8,7 +8,7 @@
 KDr2's Resume
 ======================
 
-:ref:`简体中文版 <resume_zh.cn>`
+:ref:`简体中文版 <resume_zh_cn>`
 
 Personal Infomation
 ----------------------
