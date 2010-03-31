@@ -24,9 +24,10 @@ from :ref:`my resume <resume>`.
 
 Recently Activity
 ~~~~~~~~~~~~~~~~~~~~~
-
-I'll go to the 'party' of |emacs|_ users in Beijing. see
-`HERE <http://www.newsmth.net/bbscon.php?bid=573&id=86230>`_.
+ - A bussiness trip to JiNan(济南), at 2010-04-01 ~ 2010-04-03.
+ - I'll go to the 'party' of |emacs|_ users in Beijing on
+   2010-03-20. see `HERE
+   <http://www.newsmth.net/bbscon.php?bid=573&id=86230>`_.
 
 .. Plan of the year 2010
    ~~~~~~~~~~~~~~~~~~~~~~
