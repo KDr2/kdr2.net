@@ -2,9 +2,13 @@
 
 .. include:: include/glossary.rst
 
+
+
+
 KDr2's Resume
 ======================
 
+:ref:`简体中文版 <resume_zh.cn>`
 
 Personal Infomation
 ----------------------
