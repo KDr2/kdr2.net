@@ -24,6 +24,8 @@ from :ref:`my resume <resume>`.
 
 Recently Activity
 ~~~~~~~~~~~~~~~~~~~~~
+ - Take a vacation at 2010-04-21 ~ 2010-05-03.
+ - Beijing Python User Group Party on 2010-04-17.
  - A bussiness trip to JiNan(济南), at 2010-04-01 ~ 2010-04-03.
  - I'll go to the 'party' of |emacs|_ users in Beijing on
    2010-03-20. see `HERE
