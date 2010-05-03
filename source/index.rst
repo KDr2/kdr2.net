@@ -15,11 +15,11 @@ things about me. I built this site with |sphinx|_, and I had put its
 
 I'm a programmer, generally I do all of my developments with my laptop
 (Lenovo ThinkpPad T400 2767 R38, and `this is a screenshot of it
-<https://dl.dropbox.com/u/3039119/screenshot/screenshot-20100409.png>`_),
-which debian_ was installed on. I can write |python|_, |erlang|_,
-|perl|_, |ruby|_, C, C++, Java and some more programming
-languages. You can see more about my IT skills and projects experience
-from :ref:`my resume <resume>`.
+<https://dl.dropbox.com/u/3039119/screenshot/screenshot-pub.png>`_),which
+debian_ was installed on. I can write |python|_, |erlang|_, |perl|_,
+|ruby|_, C, C++, Java and some more programming languages. You can see
+more about my IT skills and projects experience from :ref:`my resume
+<resume>`.
 
 
 Recently Activity
