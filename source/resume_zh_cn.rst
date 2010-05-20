@@ -92,7 +92,8 @@ IT技能
  * 分布式运算平台:基于Erlang/otp+Python构建的中间件平台，目标是构建分
    布式的，容错的，高稳定性的，几乎包含各种功能的中间件平台，其中包含
    BI,DataMining,MQ等多种功能。(Erlang/otp,Python,C,C++)
- * telnetd server:(under linux and sco).
+ * telnetd server:(under linux and sco): 带有终端绑定功能的telnetd服务
+   器。
 
 
 2006.07.15-今 兼职工作经验
