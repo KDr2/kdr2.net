@@ -35,7 +35,7 @@ Programmming Languages
  * **Be proficient in:** C, Python(and the implementation Guido's
    CPython), Perl, Ruby(and MRI), Erlang, Java
  * **Good at:**  JavaScript, Lua, C++, Bash
- * **Know about:**  elisp, css(2.x)
+ * **Know about:**  elisp, (x)html, css(2.x)
 
 Tools I am familiar with and often use
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,7 +43,7 @@ Tools I am familiar with and often use
  (inculdes OS, Platform, FrameWork, Library, Product, DevTools and so
  on)
 
- * Linux(Linux C,Linux System Admin)
+ * Linux(Linux C,Linux System Admin, Linux System progrmming, Kernel)
  * Erlang/otp, couchdb, RabbitMQ
  * Eclipse Plugins/RCP
  * Qt(C++ GUI lib),PyQt
@@ -57,6 +57,9 @@ Tools I am familiar with and often use
 
 Projects(by reverse chronological order)
 ---------------------------------------------
+
+ * A telnetd Server under Linux and SCO: telnetd server with
+   tty-binding feature.
 
  * A log analyzer [07/2009],Which is based on `Python
    <http://www.python.org>`_, `PyQt4

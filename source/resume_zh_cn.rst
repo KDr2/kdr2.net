@@ -1,6 +1,7 @@
 .. KDr2's Resuem
 
 .. _resume_zh_cn:
+.. include:: include/glossary.rst
 
 卓庆亮的简历(简体中文版)
 ==========================================
@@ -12,7 +13,7 @@
  * 性别 : 男
  * 出生年月 : 1983.07.23
  * 民族 : 汉
- * 目前工龄 : 3年
+ * 工作年限 : 2006.07-现在
  * EMail : killy.draw#gmail.com
 
 教育背景
@@ -25,25 +26,25 @@ IT技能
 编程语言
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * 精通 : C,Python(熟悉CPython实现),Perl,Ruby(熟悉MRI实现),Erlang,Java
- * 熟练 : JavaScript,Lua,C++,Bash, elisp
- * 了解 : common lisp, css(2.x)
+ * 精通 : C, Python(熟悉CPython实现), Perl, Ruby(熟悉MRI实现), Erlang, Java
+ * 熟练 : JavaScript, Lua, C++, Bash, elisp
+ * 了解 : common lisp, (x)html, css(2.x)
 
 常用工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  (包括OS/Platform/FrameWork/Library/Product/DevTools等)
 
- * Linux(熟悉Linux C,熟悉Linux System Admin)
+ * Linux(Linux C, Linux System Admin, Linux System programming, Linux Kernel)
  * Erlang/otp, couchdb, RabbitMQ
- * Eclipse Plugins/RCP
+ * Eclipse(Plugins/RCP Developing)
  * Qt(C++ GUI lib),PyQt
  * CPAN
  * Django,Pylons(了解),RubyOnRails(不再感兴趣)
  * jQuery
- * apache/nginx/bind(named)/proftpd/subversion/git/trac
+ * apache/nginx(module developing)/bind(named)/proftpd/subversion/git/trac
  * MySQL,MySQl-Proxy,SphinxSearch,SQLite
- * Emacs/Sphinx/WordPress
+ * |emacs|_/|sphinx|_/|wordpress|_
 
 工作经验
 ---------------------------------------------------------------------
@@ -73,8 +74,8 @@ IT技能
 2007.07.28-今, 北京赞同科技发展有限公司
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * 参与银行前端产品AB建设，此产品为银行柜员系统产品，目前已经占领国内
-   近半银行前端市场，产品为CS结构，Server与Client均采用Eclipse-RCP平台
+ * 参与银行前端产品建设，此产品为银行柜员系统产品，目前已经占领国内近
+   半银行前端市场，产品为CS结构，Server与Client均采用Eclipse-RCP平台
    构建，另有公司基于Eclipse开发的与之配套的IDE进行业务相关快速批量开
    发 (Java,Eclipse)
  * ABWeb:此产品基于AB，在兼容AB Server/AB IDE的前提下，通过给Serever扩
@@ -91,6 +92,7 @@ IT技能
  * 分布式运算平台:基于Erlang/otp+Python构建的中间件平台，目标是构建分
    布式的，容错的，高稳定性的，几乎包含各种功能的中间件平台，其中包含
    BI,DataMining,MQ等多种功能。(Erlang/otp,Python,C,C++)
+ * telnetd server:(under linux and sco).
 
 
 2006.07.15-今 兼职工作经验
