@@ -40,7 +40,7 @@ IT技能
  * Eclipse(Plugins/RCP Developing)
  * Qt(C++ GUI lib),PyQt
  * CPAN
- * Django,Pylons(了解),RubyOnRails(不再感兴趣)
+ * Django,Pylons(了解)
  * jQuery
  * apache/nginx(module developing)/bind(named)/proftpd/subversion/git/trac
  * MySQL,MySQl-Proxy,SphinxSearch,SQLite

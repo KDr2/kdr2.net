@@ -48,7 +48,7 @@ Tools I am familiar with and often use
  * Eclipse Plugins/RCP
  * Qt(C++ GUI lib),PyQt
  * CPAN
- * Django,Pylons,RubyOnRails
+ * Django,Pylons
  * jQuery
  * apache/nginx/bind(named)/proftpd/subversion/git/trac
  * MySQL,MySQl-Proxy,SphinxSearch,SQLite
