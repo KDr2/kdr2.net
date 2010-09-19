@@ -22,7 +22,6 @@ class FeedsController(BaseController):
 
     def rss2_0(self):
         item_list=self._changelog()
-        print item_list
         c.item_list=item_list
         return render("/rss2_0.mako");
 
