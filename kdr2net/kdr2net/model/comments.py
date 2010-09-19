@@ -29,7 +29,7 @@ class Comment(Base):
     def dict(self):
         return {
             'target':self.target,
-            'date':self.date.strftime("%D %H:%m"),
+            'date':self.date.strftime("%D %H:%M"),
             'author':self.author,
             'url':self.url,
             'content':self.content
