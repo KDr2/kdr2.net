@@ -1,6 +1,6 @@
 
 from sqlalchemy import Column
-from sqlalchemy.types import Integer, String, Text, TIMESTAMP
+from sqlalchemy.types import Integer, String, Text, DateTime
 
 from kdr2net.model.meta import Base
 
@@ -12,7 +12,7 @@ class Comment(Base):
 
     id = Column(Integer, primary_key=True)
     target = Column(String(60), nullable=False)
-    date = Column(TIMESTAMP)
+    date = Column(DateTime)
     author = Column(String(12), nullable=False)
     email = Column(String(30), nullable=False)
     url = Column(String(256), nullable=False)
