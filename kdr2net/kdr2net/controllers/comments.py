@@ -5,7 +5,7 @@ from pylons.controllers.util import abort, redirect
 
 from kdr2net.lib.base import BaseController, render, Session
 from kdr2net.model import Comment
-import json
+import simplejson as json
 
 
 log = logging.getLogger(__name__)
