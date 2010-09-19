@@ -24,7 +24,7 @@ Changelog of this site
 You can subscribe the |rss|_ of this site to watch its changelog.
 
 - 2010-02-28 add rss feed.
-- 2010-02-04 add comments service based on django_ and Ajax.
+- 2010-02-04 add comments service based on pylons_ and Ajax.
 - 2010-02-04 remove the blog based on |wordpress|_.
 - 2010-01-31 built the first version with |sphinx|_.
 

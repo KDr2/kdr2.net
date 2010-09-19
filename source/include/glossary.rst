@@ -37,6 +37,8 @@
 
 .. _django: http://www.djangoproject.com/
 
+.. _pylons: http://www.pylonshq.com/
+
 .. |erlang| replace:: Erlang
 .. _erlang: http://erlang.org
 
