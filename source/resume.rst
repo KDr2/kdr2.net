@@ -29,13 +29,9 @@ Bachelor of Management from `Xi'an Jiaotong University
 IT Skills
 -------------
 
-Programmming Languages
-~~~~~~~~~~~~~~~~~~~~~~~
-
- * **Be proficient in:** C, Python(and the implementation Guido's
-   CPython), Perl, Ruby(and MRI), Erlang, Java
- * **Good at:**  JavaScript, Lua, C++, Bash
- * **Know about:**  elisp, (x)html, css(2.x)
+ * **Be proficient in/Devoting myself to:** Linux, C, Erlang, Python
+ * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript, C++, Bash
+ * **Know noting about/Can't do:** Almost every thing relevant to MS Windows
 
 Tools I am familiar with and often use
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,12 +39,12 @@ Tools I am familiar with and often use
  (inculdes OS, Platform, FrameWork, Library, Product, DevTools and so
  on)
 
- * Linux(Linux C,Linux System Admin, Linux System progrmming, Kernel)
+ * Linux(System progrmming, Kernel Dev)
  * Erlang/otp, couchdb, RabbitMQ
- * Eclipse Plugins/RCP
+.. * Eclipse Plugins/RCP DEV
  * Qt(C++ GUI lib),PyQt
  * CPAN
- * Django,Pylons
+ * Pylons, WSGI
  * jQuery
  * apache/nginx/bind(named)/proftpd/subversion/git/trac
  * MySQL,MySQl-Proxy,SphinxSearch,SQLite

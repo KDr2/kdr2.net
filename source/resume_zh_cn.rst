@@ -23,12 +23,10 @@
 IT技能
 ------------------------------------------------------------------
 
-编程语言
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * 精通 : C, Python(熟悉CPython实现), Perl, Ruby(熟悉MRI实现), Erlang, Java
- * 熟练 : JavaScript, Lua, C++, Bash, elisp
- * 了解 : common lisp, (x)html, css(2.x)
+ * **精通/致力于:** Linux, C,  Erlang, Python
+ * **熟练/也能做:** Java, Perl, |ruby|_, JavaScript, C++, Bash
+ * **不会做/不能做:**  MS Window平台相关开发
 
 常用工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,10 +35,10 @@ IT技能
 
  * Linux(Linux C, Linux System Admin, Linux System programming, Linux Kernel)
  * Erlang/otp, couchdb, RabbitMQ
- * Eclipse(Plugins/RCP Developing)
+.. * Eclipse(Plugins/RCP Developing)
  * Qt(C++ GUI lib),PyQt
  * CPAN
- * Django,Pylons(了解)
+ * Pylons, WSGI
  * jQuery
  * apache/nginx(module developing)/bind(named)/proftpd/subversion/git/trac
  * MySQL,MySQl-Proxy,SphinxSearch,SQLite
