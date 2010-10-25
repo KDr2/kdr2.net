@@ -16,10 +16,10 @@ things about me. I built this site with |sphinx|_, and I had put its
 I'm a programmer, generally I do all of my developments with my laptop
 (Lenovo ThinkpPad T400 2767 R38, and `this is a screenshot of it
 <https://dl.dropbox.com/u/3039119/screenshot/screenshot-pub.png>`_),which
-debian_ was installed on. I can write |python|_, |erlang|_, |perl|_,
-|ruby|_, C, C++, Java and some more programming languages. You can see
-more about my IT skills and projects experience from :ref:`my resume
-<resume>`.
+debian_ was installed on. I can write |python|_, |erlang|_, C, C++,
+Java and some more programming languages, And I am devoting my mind to
+the |linux|_, |erlang|_, and |python|_ study. You can see more about
+my IT skills and projects experience from :ref:`my resume <resume>`.
 
 
 Recently Activity
@@ -30,15 +30,6 @@ Recently Activity
  - I'll go to the 'party' of |emacs|_ users in Beijing on
    2010-03-20. see `HERE
    <http://www.newsmth.net/bbscon.php?bid=573&id=86230>`_.
-
-.. Plan of the year 2010
-   ~~~~~~~~~~~~~~~~~~~~~~
-   - Improve my poor English.
-   - Plant peanuts with |my wife|_ and my parents at my hometown(Where I
-   was born) in the coming spring.
-   - A journey to New Zealand/Australia at the end of the fall(the start
-   of next spring at the Southern Hemisphere). Or to North America at
-   the summer.
 
 
 Contact Me

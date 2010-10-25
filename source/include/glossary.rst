@@ -47,3 +47,6 @@
 
 .. |ruby| replace:: Ruby
 .. _ruby: http://www.ruby-lang.org
+
+.. |linux| replace:: Linux
+.. _linux: http://www.kernel.org
