@@ -41,7 +41,6 @@ Tools I am familiar with and often use
 
  * Linux(System progrmming, Kernel Dev)
  * Erlang/otp, couchdb, RabbitMQ
-.. * Eclipse Plugins/RCP DEV
  * Qt(C++ GUI lib),PyQt
  * CPAN
  * Pylons, WSGI

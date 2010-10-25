@@ -48,8 +48,8 @@ Other Contents
    :maxdepth: 1
 
    scheduler
-   resume
    blog/index
+   resume
    about
 
 .. Indices and tables

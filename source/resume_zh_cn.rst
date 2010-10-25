@@ -35,7 +35,6 @@ IT技能
 
  * Linux(Linux C, Linux System Admin, Linux System programming, Linux Kernel)
  * Erlang/otp, couchdb, RabbitMQ
-.. * Eclipse(Plugins/RCP Developing)
  * Qt(C++ GUI lib),PyQt
  * CPAN
  * Pylons, WSGI
