@@ -54,8 +54,8 @@ Other Contents
    scheduler
    blog/index
    about
-..   resume
 
+.. include :: include/footer.rst
 .. Indices and tables
 .. ==================
 
