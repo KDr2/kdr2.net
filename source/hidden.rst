@@ -7,3 +7,4 @@ A Hidden Page
 
    resume
    resume_zh_cn
+   blog/cat

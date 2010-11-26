@@ -45,8 +45,17 @@
 .. |perl| replace:: Perl
 .. _perl: http://www.perl.org
 
+.. |java| replace:: Java
+.. _java: http://www.java.com
+
 .. |ruby| replace:: Ruby
 .. _ruby: http://www.ruby-lang.org
 
 .. |linux| replace:: Linux
 .. _linux: http://www.kernel.org
+
+.. |cczh| replace:: CC3.0 : 自由转载-非商用-非衍生-保持署名
+.. _cczh: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh
+
+.. |ccen| replace:: Creative Commons BY-NC-ND 3.0
+.. _ccen: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en
