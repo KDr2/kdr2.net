@@ -21,9 +21,6 @@ debian_ was installed on. I can write |erlang|_, C, C++, |python|_, Java,
 Perl, Javascript and some more programming languages, And I am now devoting my
 mind to the |linux|_, |erlang|_, and |python|_ studying.
 
-.. You can see more about my IT skills and projects experience from
-.. :ref:`my resume <resume>`.
-
 
 What am I doing?
 ~~~~~~~~~~~~~~~~~~~~~
@@ -59,6 +56,7 @@ Contact Me
  - Feed    : |rss|_
 
 .. include:: include/footer.rst
+
 .. Indices and tables
 .. ==================
 
