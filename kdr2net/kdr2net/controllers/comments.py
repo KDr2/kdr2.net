@@ -24,7 +24,7 @@ class CommentsController(BaseController):
     def get_comments(self,user_url=""):
         comments=Session.query(Comment).filter_by(target=user_url).order_by(Comment.date)
         comments_map=map(Comment.dict,comments)
-        return json.dumps(comments)
+        return json.dumps(comments_map)
 
     def post_comment(self):
         #if(request.method!="POST"):
