@@ -29,5 +29,6 @@ You can subscribe the |rss|_ of this site to watch its changelog.
 - 2010-02-04 remove the blog based on |wordpress|_.
 - 2010-01-31 built the first version with |sphinx|_.
 
+.. include:: include/footer.rst
 
 .. include:: include/comments.rst

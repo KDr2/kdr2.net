@@ -1,4 +1,6 @@
 
+.. include:: include/glossary.rst
+
 A Hidden Page
 =====================
 
@@ -8,3 +10,6 @@ A Hidden Page
    resume
    resume_zh_cn
    blog/cat
+
+
+.. include:: include/footer.rst

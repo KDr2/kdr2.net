@@ -1,4 +1,6 @@
 
+.. include:: ../include/glossary.rst
+
 Blog Categories
 ==================
 
@@ -29,3 +31,6 @@ Cat: Java
 
 .. toctree::
    :maxdepth: 1
+
+
+.. include:: ../include/footer.rst

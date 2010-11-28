@@ -110,3 +110,6 @@ development, and some more things which are relevant to the
 technologies listed on my :ref:`it skills list
 <it_skills_list>`. After all, I prefer a job that can be done without
 MicroSoft Windows(and without Microsoft Office, certainly).
+
+
+.. include:: include/footer.rst

@@ -119,4 +119,4 @@ IT技能
  * 崇尚自由的技术环境
 
 
-
+.. include:: include/footer.rst

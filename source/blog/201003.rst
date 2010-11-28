@@ -1,4 +1,6 @@
 
+.. include:: ../include/glossary.rst
+
 Blog of Mar 2010
 =====================
 
@@ -15,5 +17,6 @@ I buy a new laptop(lenovo T400 2767 R38) today.
 
 I updated my kernel to 26.33 with PAE turned on tonight.
 
+.. include:: ../include/footer.rst
 
 .. include:: ../include/comments.rst

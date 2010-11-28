@@ -1,4 +1,5 @@
 
+.. include:: ../include/glossary.rst
 
 KDr2's Simple Weblog
 ========================
@@ -8,3 +9,6 @@ KDr2's Simple Weblog
    :maxdepth: 3
 
    201003
+
+
+.. include:: ../include/footer.rst
