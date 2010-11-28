@@ -5,6 +5,7 @@ from pylons.controllers.util import abort, redirect
 
 from kdr2net.lib.base import BaseController, render, Session
 from kdr2net.model import Comment
+import kdr2net.lib.helpers as h
 import simplejson as json
 
 
@@ -30,7 +31,8 @@ class CommentsController(BaseController):
         try:
             Session.add(comment)
             Session.commit()
-            #title="[kdr2.net] %s left a message on %s" % (comment.author,comment.target)
+            h.sendmail_text(u"killy.draw@gmail.com","[kdr2.net]新回复:http://kdr2.net/"+comment.target,str(comment))
+            #Title="[kdr2.net] %s left a message on %s" % (comment.author,comment.target)
             #mail_admins(title, comment.content, fail_silently=False)
             return json.dumps([comment.dict()])
         except Exception,e:
