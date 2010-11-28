@@ -23,7 +23,7 @@ mind to the |linux|_, |erlang|_, and |python|_ studying.
 
 
 What am I doing?
-~~~~~~~~~~~~~~~~~~~~~
+-------------------
 
 .. image:: _static/images/linux-logo.png
 .. image:: _static/images/erlang-logo.png
@@ -36,7 +36,7 @@ What am I doing?
 - |java|_ : enterprise developing, server side, middleware, openjdk(jvm) studying. :ref:`>>> <blog_cat_java>`
 
 Other Contents
-~~~~~~~~~~~~~~~~~~~~
+------------------
 
 .. toctree::
    :maxdepth: 1
@@ -47,7 +47,7 @@ Other Contents
 
 
 Contact Me
-~~~~~~~~~~~~~~~~~~~~
+-----------------
 
  - skype   : zhuoql
  - gtalk   : |email|
