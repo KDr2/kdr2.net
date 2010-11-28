@@ -14,9 +14,9 @@ function _url(){
 }
 
 function format_comment(cmt){
-    return "<a href="+cmt['url']+" target='_blank'><strong>"+cmt['author']+
-        "</strong></a> ( "+cmt['date']+" )"+
-        " said:<br/> &nbsp;&nbsp;"+cmt['content'];
+    return '<a href="'+cmt['url']+'" target="_blank"><strong>'+cmt['author']+
+        '</strong></a> ( '+cmt['date']+' )'+
+        ' said:<br/> &nbsp;&nbsp;'+cmt['content'];
 }
 
 function validate_comment(cmt){
@@ -66,7 +66,7 @@ function get_cookie(key){
     for(var i=0;i<arr_cookie.length;i++){
         var arr=arr_cookie[i].split("=");
         if(key==arr[0]){
-            return arr[1];
+            return unescape(arr[1]);
         }
     }
     return "";
