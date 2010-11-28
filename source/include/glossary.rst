@@ -2,8 +2,8 @@
 
 .. self info
 
-.. |my wife| replace:: my wife
-.. _my wife: http://www.miss-understood.net
+.. |mu| replace:: miss-undersood
+.. _mu: http://www.miss-understood.net
 
 .. |mytwt| replace:: http://twitter.com/KDr2
 .. _mytwt: http://twitter.com/KDr2
@@ -59,3 +59,6 @@
 
 .. |ccen| replace:: Creative Commons BY-NC-ND 3.0
 .. _ccen: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en
+
+.. |dh| replace:: DreamHost
+.. _dh: http://www.dreamhost.com

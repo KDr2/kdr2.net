@@ -21,6 +21,12 @@ debian_ was installed on. I can write |erlang|_, C, C++, |python|_, Java,
 Perl, Javascript and some more programming languages, And I am now devoting my
 mind to the |linux|_, |erlang|_, and |python|_ studying.
 
+Recent Update
+------------------
+.. toctree::
+   :maxdepth: 1
+
+   blog/20101128_back_to_dreamhost
 
 What am I doing?
 -------------------
@@ -44,7 +50,7 @@ Other Contents
    scheduler
    blog/index
    about
-
+   links
 
 Contact Me
 -----------------

@@ -5,10 +5,13 @@ KDr2's Simple Weblog
 ========================
 
 
-.. toctree::
-   :maxdepth: 3
+2010
+------------------------------
 
-   201003
+.. toctree::
+   :maxdepth: 1
+
+   20101128_back_to_dreamhost
 
 
 .. include:: ../include/footer.rst
