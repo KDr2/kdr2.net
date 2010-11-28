@@ -14,8 +14,9 @@ function _url(){
 }
 
 function format_comment(cmt){
-    return "<b>"+cmt['author']+" ( "+cmt['date']+" )"+
-        "</b> said:<br/> &nbsp;&nbsp;"+cmt['content'];
+    return "<a href="+cmt['url']+" target='_blank'><strong>"+cmt['author']+
+        "</strong></a> ( "+cmt['date']+" )"+
+        " said:<br/> &nbsp;&nbsp;"+cmt['content'];
 }
 
 function validate_comment(cmt){
@@ -54,11 +55,29 @@ function append_comment(comment){
     comments_ul.append($("<li>"+format_comment(comment)+"</li>"));
 }
 
+function store_cookies(comment){
+    document.cookie="user_name="+escape(comment.name);
+    document.cookie="user_email="+escape(comment.email);
+    document.cookie="user_url="+escape(comment.url);
+}
+
+function get_cookie(key){
+    var arr_cookie=document.cookie.split("; ");
+    for(var i=0;i<arr_cookie.length;i++){
+        var arr=arr_cookie[i].split("=");
+        if(key==arr[0]){
+            return arr[1];
+        }
+    }
+    return "";
+}
+
 function post_comment(){
     cmt_data={ target: _url(), name:$("#c_name").attr("value"),
                email:$("#c_email").attr("value"),url:$("#c_url").attr("value"),
                content:$("#c_content").attr("value")};
     if(!validate_comment(cmt_data))return;
+    store_cookies(cmt_data);
     $("#cmt_progress").addClass("waiting");
     $("#cmt_progress").text("Posting Comments...");
     $("#cmt_progress").show();
@@ -78,9 +97,9 @@ function post_comment(){
 }
 
 function clear_inputs(){
-    $("#c_name").attr("value","");
-    $("#c_url").attr("value","");
-    $("#c_email").attr("value","");
+    $("#c_name").attr("value",get_cookie("user_name"));
+    $("#c_url").attr("value",get_cookie("user_url"));
+    $("#c_email").attr("value",get_cookie("user_email"));
     $("#c_content").attr("value","");
 }
 
@@ -103,6 +122,7 @@ function setup_block(){
     $(".sphinxsidebarwrapper > ul > li > ul").append($(toc_comment_link));
     $("#submit_comment").click(post_comment);
     fill_comments();
+    clear_inputs();
 }
 
 if(need_show_comments()){
