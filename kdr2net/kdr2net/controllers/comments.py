@@ -1,3 +1,5 @@
+#-*- coding:utf-8 -*-
+
 import logging
 
 from pylons import request, response, session, tmpl_context as c, url
@@ -31,7 +33,7 @@ class CommentsController(BaseController):
         try:
             Session.add(comment)
             Session.commit()
-            h.sendmail_text(u"killy.draw@gmail.com","[kdr2.net]新回复:http://kdr2.net/"+comment.target,str(comment))
+            h.sendmail_text(u"killy.draw@gmail.com",u"[kdr2.net]新回复:http://kdr2.net/"+comment.target,str(comment))
             #Title="[kdr2.net] %s left a message on %s" % (comment.author,comment.target)
             #mail_admins(title, comment.content, fail_silently=False)
             return json.dumps([comment.dict()])
