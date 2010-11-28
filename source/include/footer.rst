@@ -23,4 +23,12 @@ Page(Article) Information / 页面(文章)信息:
   </script>
   <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
   <!-- AddToAny END -->
+  <br/>
+  <!-- JiaThis Button BEGIN -->
+  <a href="http://www.jiathis.com/share/" class="jiathis"><img
+  src="http://www.jiathis.com/code/images/jiathis2.gif" width="120"
+  height="18" border="0" id="jiathis_a"/></a>
+  <script type="text/javascript"
+  src="http://www.jiathis.com/code/jia.js" charset=utf-8></script>
+  <!-- JiaThis Button END -->
 
