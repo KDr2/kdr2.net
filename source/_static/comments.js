@@ -56,9 +56,15 @@ function append_comment(comment){
 }
 
 function store_cookies(comment){
-    document.cookie="user_name="+escape(comment.name);
-    document.cookie="user_email="+escape(comment.email);
-    document.cookie="user_url="+escape(comment.url);
+    var days = 180;
+    var exp  = new Date();
+    exp.setTime(exp.getTime() + days*24*60*60*1000);
+    document.cookie="user_name="+escape(comment.name)+
+        "; expires=" + exp.toGMTString();;
+    document.cookie="user_email="+escape(comment.email)+
+        "; expires=" + exp.toGMTString();;
+    document.cookie="user_url="+escape(comment.url)+
+        "; expires=" + exp.toGMTString();;
 }
 
 function get_cookie(key){
