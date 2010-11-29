@@ -21,6 +21,7 @@ class FeedsController(BaseController):
         return 'Hello World'
 
     def rss2_0(self):
+        response.headers['content-type'] = 'text/xml; charset=UTF-8'
         item_list=self._changelog()
         c.item_list=item_list
         return render("/rss2_0.mako");

@@ -22,14 +22,16 @@ class CommentsController(BaseController):
         return 'Hello World'
 
     def get_comments(self,user_url=""):
+        response.headers['content-type'] = 'text/javascript; charset=UTF-8'
         comments=Session.query(Comment).filter_by(target=user_url).order_by(Comment.date)
         comments_map=map(Comment.dict,comments)
         return json.dumps(comments_map)
 
     def post_comment(self):
-        #if(request.method!="POST"):
-        #    abort("404");
+        if(request.method!="POST"):
+            abort("404");
         comment=Comment(request.POST)
+        response.headers['content-type'] = 'text/javascript; charset=UTF-8'
         try:
             Session.add(comment)
             Session.commit()
