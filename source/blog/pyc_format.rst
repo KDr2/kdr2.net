@@ -150,7 +150,7 @@ PyCodeObject 的部分如下:
 根据上面两段代码,我们很容易就能看到 PyCodeObject 里哪些字段需要参数序
 列化了,我们就挨个解释下需要序列化的字段们:
 
-* co_argcount : code需要的位置参数个数,不包括变长参数(*args和**kwargs)
+* co_argcount : code需要的位置参数个数,不包括变长参数(\*args和\*\*kwargs)
 * co_nlocals : code内所有的局部变量的个数,包括所有参数
 * co_stacksize : code段运行时所需要的最大栈深度
 * co_flags : 一些标识位,也在code.h里定义,注释很清楚,比如
