@@ -2,6 +2,7 @@
 import os
 import logging
 import datetime
+import codecs
 
 from pylons import request, response, session, tmpl_context as c, url, config
 from pylons.controllers.util import abort, redirect
@@ -32,7 +33,7 @@ class FeedsController(BaseController):
         clfile=os.path.join(site_dir,"source/changelog.ini")
         log.debug(clfile)
         cfg=ConfigParser()
-        cfg.read(clfile)
+        cfg.readfp(codecs.open(clfile,"r","utf-8"))
         keys=cfg.sections()
         keys=sorted(keys,reverse=True)
         return map(lambda x:self._section2rssitem(cfg,x),keys)
@@ -40,7 +41,7 @@ class FeedsController(BaseController):
 
     def _section2rssitem(self,cfg,section):
         d=datetime.datetime.strptime(section,"%Y-%m-%d %H:%M")
-        ret={'pubdate':d.strftime("%a, %d %b %Y %H:%M:%S +0800")}
+        ret={'pubdate':d.strftime(u"%a, %d %b %Y %H:%M:%S +0800")}
         keys=['title','link','author','cats','desc','content']
         for key in keys:
             ret[key]=cfg.get(section,key)
