@@ -25,6 +25,7 @@ Cat: Python
 .. toctree::
    :maxdepth: 1
 
+   pyc_format
    20101128_back_to_dreamhost
 
 Cat: Java

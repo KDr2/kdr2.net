@@ -26,6 +26,7 @@ Recent Update
 .. toctree::
    :maxdepth: 1
 
+   blog/pyc_format
    blog/20101128_back_to_dreamhost
 
 What am I doing?

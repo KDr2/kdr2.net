@@ -11,6 +11,7 @@ KDr2's Simple Weblog
 .. toctree::
    :maxdepth: 1
 
+   pyc_format
    20101128_back_to_dreamhost
 
 
