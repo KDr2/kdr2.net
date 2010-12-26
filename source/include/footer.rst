@@ -36,3 +36,12 @@ Page(Article) Information / 页面(文章)信息:
   <a href="http://www.51.la/?4383414" target="_blank"><img
   alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;"
   src="http://img.users.51.la/4383414.asp" style="display:none" /></a>
+
+  <!-- baidu tongji -->
+  <script type="text/javascript">
+  var _bdhmProtocol = (("https:" == document.location.protocol) ? "
+  https://" : " http://");
+  document.write(unescape("%3Cscript src='" + _bdhmProtocol +
+  "hm.baidu.com/h.js%3F58cd3e2950f3d1bba9874d054f7590b4'
+  type='text/javascript'%3E%3C/script%3E"));
+  </script>
