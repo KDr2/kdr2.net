@@ -42,6 +42,17 @@
 .. |erlang| replace:: Erlang
 .. _erlang: http://erlang.org
 
+.. |cl| replace:: Common Lisp
+.. _cl: http://common-lisp.net/
+
+.. |sbcl| replace:: SBCL
+.. _sbcl: http://www.sbcl.org/
+
+
+.. |debian| replace:: Debian
+.. _debian: http://www.debian.org
+
+
 .. |perl| replace:: Perl
 .. _perl: http://www.perl.org
 

@@ -33,14 +33,14 @@ What am I doing?
 -------------------
 
 .. image:: _static/images/linux-logo.png
-.. image:: _static/images/erlang-logo.png
 .. image:: _static/images/python-logo.png
-.. image:: _static/images/java-duke-logo.png
+.. image:: _static/images/erlang-logo.png
+.. image:: _static/images/lisp-logo.png
 
 - |linux|_ : system programming, kernel developing.  :ref:`>>> <blog_cat_linux>`
-- |erlang|_ : erlang programming, erlang vm studying/developing. :ref:`>>> <blog_cat_erlang>`
 - |python|_ : scripting, web developping, diving into cpython, and other things. :ref:`>>> <blog_cat_python>`
-- |java|_ : enterprise developing, server side, middleware, openjdk(jvm) studying. :ref:`>>> <blog_cat_java>`
+- |erlang|_ : erlang programming, erlang vm studying/developing. :ref:`>>> <blog_cat_erlang>`
+- |cl|_ : programming language study, application dev, server side, and all other things. :ref:`>>> <blog_cat_lisp>`
 
 Other Contents
 ------------------

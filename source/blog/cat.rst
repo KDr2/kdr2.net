@@ -11,13 +11,6 @@ Cat: Linux
 .. toctree::
    :maxdepth: 1
 
-Cat: Erlang
--------------------
-.. _blog_cat_erlang:
-
-.. toctree::
-   :maxdepth: 1
-
 Cat: Python
 -------------------
 .. _blog_cat_python:
@@ -28,12 +21,22 @@ Cat: Python
    pyc_format
    20101128_back_to_dreamhost
 
-Cat: Java
-------------------
-.. _blog_cat_java:
+
+Cat: Erlang
+-------------------
+.. _blog_cat_erlang:
 
 .. toctree::
    :maxdepth: 1
+
+
+Cat: Common Lisp
+-------------------
+.. _blog_cat_lisp:
+
+.. toctree::
+   :maxdepth: 1
+
 
 
 .. include:: ../include/footer.rst
