@@ -9,7 +9,7 @@ Introduction
 
 sb-fastcgi is a |cl|_ |fcgi|_ API Toolkit for |sbcl|_, It contains a
 group of low-level API's which like the c API of |fcgi|_, a group of
-fcgi-server implementations, and a hign-level |wsgi|_ style interface.
+fcgi-server implementations, and a high-level |wsgi|_ style interface.
 
 You can get it from https://github.com/KDr2/sb-fastcgi .
 
