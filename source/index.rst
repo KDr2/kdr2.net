@@ -42,6 +42,14 @@ What am I doing?
 - |erlang|_ : erlang programming, erlang vm studying/developing. :ref:`>>> <blog_cat_erlang>`
 - |cl|_ : programming language study, application dev, server side, and all other things. :ref:`>>> <blog_cat_lisp>`
 
+Open Source Projects
+------------------------
+.. toctree::
+   :maxdepth: 1
+
+   sb-fastcgi
+   erlix
+
 Other Contents
 ------------------
 

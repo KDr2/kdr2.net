@@ -73,3 +73,9 @@
 
 .. |dh| replace:: DreamHost
 .. _dh: http://www.dreamhost.com
+
+.. |fcgi| replace:: FastCGI
+.. _fcgi: http://www.fastcgi.com/
+
+.. |wsgi| replace:: WSGI
+.. _wsgi: http://www.python.org/dev/peps/pep-0333/
