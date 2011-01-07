@@ -14,15 +14,15 @@ target to running on mostly Common Lisp implementation.
 
 You can get it from https://github.com/KDr2/cl-fastcgi .
 
-cl-fastcgi's API is exactly the same as :ref:`SB-FastCGI <sb-fastcgi>`'s.
+CL-FastCGI's API is exactly the same as :ref:`SB-FastCGI <sb-fastcgi>`'s.
 
 Differences between :Ref:`SB-FastCGI <sb-fastcgi>`
 -----------------------------------------------------
 
 **SB-FastCGI**
- - Support SBCL only.
+ - Supports SBCL only.
  - No third-party packages dependences.
- - Support unix-domain-socket/inet-socket/stdin
+ - Supports unix-domain-socket/inet-socket/stdin
  - Multithreaded fastcgi server.
 
 **CL-FastCGI**
@@ -40,8 +40,8 @@ Differences between :Ref:`SB-FastCGI <sb-fastcgi>`
 Which to Use?
 ----------------------------
 
-If you use SBCL, I recommand you select **:ref:`SB-FastCGI
-<sb-fastcgi>`**, and package :ref:`SB-FastCGI <sb-fastcgi>` has a
+If you use SBCL, I recommand you select :ref:`SB-FastCGI
+<sb-fastcgi>`, and package :ref:`SB-FastCGI <sb-fastcgi>` has a
 nickname ``cl-fastcgi``, so you can change :ref:`SB-FastCGI
 <sb-fastcgi>` to cl-fastcgi or change back easily, without code
 modifications.
