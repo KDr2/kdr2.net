@@ -1,6 +1,8 @@
 
 .. include:: include/glossary.rst
 
+.. _sb-fastcgi:
+
 SB-FastCGI
 =====================
 
@@ -12,6 +14,9 @@ group of low-level API's which like the c API of |fcgi|_, a group of
 fcgi-server implementations, and a high-level |wsgi|_ style interface.
 
 You can get it from https://github.com/KDr2/sb-fastcgi .
+
+If you want use sb-fastcgi on some other Common Lisp implementations
+rather than SBCL, you can refer to :ref:`CL-FastCGI <cl-fastcgi>`
 
 Getting Start
 ----------------------

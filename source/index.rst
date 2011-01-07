@@ -48,6 +48,7 @@ Open Source Projects
    :maxdepth: 1
 
    sb-fastcgi
+   cl-fastcgi
    erlix
 
 Other Contents
