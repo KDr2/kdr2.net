@@ -32,6 +32,7 @@ Differences between :Ref:`SB-FastCGI <sb-fastcgi>`
    - SBCL
    - CMUCL
    - CLISP
+   - Clozure CL
 
  - Depends on **cffi** and **usocket**
  - Unix-domain-socket is unsupported.
