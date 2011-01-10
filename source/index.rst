@@ -17,9 +17,10 @@ things about me. I built this site with |sphinx|_, and I had put its
 I'm a programmer, generally I do all of my developments with my laptop
 (Lenovo ThinkpPad T400 2767 R38, and `this is a screenshot of it
 <https://dl.dropbox.com/u/3039119/screenshot/screenshot-pub.png>`_),which
-debian_ was installed on. I can write |erlang|_, C, C++, |python|_, Java,
-Perl, Javascript and some more programming languages, And I am now devoting my
-mind to the |linux|_, |erlang|_, and |python|_ studying.
+debian_ was installed on. I can write |erlang|_, Common Lisp C, C++,
+|python|_, Java, Perl, Javascript and some more programming languages,
+And I am now devoting my mind to the |linux|_, |erlang|_, Common Lisp
+and |python|_ studying.
 
 Recent Update
 ------------------
