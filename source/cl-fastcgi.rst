@@ -34,6 +34,7 @@ Differences between :Ref:`SB-FastCGI <sb-fastcgi>`
    - CLISP
    - Clozure CL
    - LispWorks
+   - ECL
 
  - Depends on **cffi** and **usocket**
  - Unix-domain-socket is unsupported.
@@ -58,3 +59,4 @@ Bug Report
 
 .. include:: include/footer.rst
 
+.. include:: include/comments.rst

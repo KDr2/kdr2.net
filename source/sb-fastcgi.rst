@@ -188,3 +188,4 @@ Bug Report
 
 .. include:: include/footer.rst
 
+.. include:: include/comments.rst
