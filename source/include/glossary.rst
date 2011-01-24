@@ -45,7 +45,7 @@
 .. |cl| replace:: Common Lisp
 .. _cl: http://common-lisp.net/
 
-.. |ecl| :replace: ECL
+.. |ecl| replace:: ECL
 .. _ecl: http://ecls.sourceforge.net/
 
 .. |sbcl| replace:: SBCL
