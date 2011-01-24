@@ -22,12 +22,13 @@ Tools I'm using
 ~~~~~~~~~~~~~~~~~~~~~
 
 - |linux|_
-- |debian|_
-- |python|_
-- |erlang|_
 - |emacs|_
 - |sbcl|_
 - |ecl|_
+- |gcc|_
+- |debian|_
+- |python|_
+- |erlang|_
 
 
 Technology Sites

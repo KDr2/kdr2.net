@@ -83,3 +83,5 @@
 .. |wsgi| replace:: WSGI
 .. _wsgi: http://www.python.org/dev/peps/pep-0333/
 
+.. |gcc| replace:: GCC
+.. _gcc: http://gcc.gnu.org/
