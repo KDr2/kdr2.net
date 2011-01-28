@@ -47,6 +47,8 @@ c-API of |fcgi|_, see the list below:
  - fcgx-accept
  - fcgx-finish
  - fcgx-puts
+ - fcgx-read
+ - fcgx-read-all
  - fcgx-getparam
  - fcgx-getenv
 
@@ -62,6 +64,9 @@ very useful :
 **fcgx-puts** is for writting content to a http-response, e.g. use
 ``(fcgx-puts req "CONETNT")`` to write the string "CONTENT" to the
 http-response corresponding to http-request ``req``.
+
+**fcgx-read(-all)** is for reading data from the input stream of the
+http-request. usually, you must use it to get the POST data.
 
 **fcgx-getparam**  is for getting parameter from the http-request
 header, e.g. ``(fcgx-getparam req "QUERY_STRING")`` will return the
