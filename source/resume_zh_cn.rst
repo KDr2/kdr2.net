@@ -24,8 +24,8 @@ IT技能
 ------------------------------------------------------------------
 
 
- * **精通/致力于:** Linux, C,  Erlang, Python
- * **熟练/也能做:** Java, Perl, |ruby|_, JavaScript, C++, Bash
+ * **精通/致力于:** Linux, C,  Erlang, Python, Common Lisp
+ * **熟练/也能做:** Java, Perl, |ruby|_, JavaScript, Objective-C, C++, Bash
  * **不会做/不能做:**  MS Window平台相关开发
 
 常用工具
@@ -35,6 +35,7 @@ IT技能
 
  * Linux(Linux C, Linux System Admin, Linux System programming, Linux Kernel)
  * Erlang/otp, couchdb, RabbitMQ
+ * SBCL, ECL
  * Qt(C++ GUI lib),PyQt
  * CPAN
  * Pylons, WSGI

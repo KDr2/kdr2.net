@@ -29,8 +29,10 @@ Bachelor of Management from `Xi'an Jiaotong University
 IT Skills
 -------------
 
- * **Be proficient in/Devoting myself to:** Linux, C, Erlang, Python
- * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript, C++, Bash
+ * **Be proficient in/Devoting myself to:** Linux, C, Erlang, Python,
+     Common Lisp
+ * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript, Objective-,
+     C++
  * **Know noting about/Can't do:** Almost every thing relevant to MS Windows
 
 Tools I am familiar with and often use
@@ -41,6 +43,7 @@ Tools I am familiar with and often use
 
  * Linux(System progrmming, Kernel Dev)
  * Erlang/otp, couchdb, RabbitMQ
+ * SBCL, ECL
  * Qt(C++ GUI lib),PyQt
  * CPAN
  * Pylons, WSGI
