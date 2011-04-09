@@ -15,10 +15,10 @@ things about me. I built this site with |sphinx|_, and I had put its
 |rst|_ sources on |kd@github|_, you can get it freely if you want.
 
 I'm a programmer, generally I do all of my developments with my laptop
-(MBP MC724). I can write |erlang|_, Common Lisp C, C++,
-|python|_, Java, Perl, Javascript and some more programming languages,
-And I am now devoting my mind to the |linux|_, |erlang|_, Common Lisp
-and |python|_ studying.
+(MBP MC724). I can write |erlang|_, Common Lisp C, C++, |python|_,
+Java, Perl, Javascript and some more programming languages, And I am
+now devoting my mind to the |linux|_, |erlang|_, Common Lisp and
+|python|_ studying.
 
 Recent Update
 ------------------

@@ -20,8 +20,8 @@ Personal Infomation
 Education
 -------------
 
-Bachelor of Management from `Xi'an Jiaotong University
-<http://www.xjtu.edu.cn>`_, China. [2002-2006]
+[2002-2006] `Xi'an Jiaotong University
+<http://www.xjtu.edu.cn>`_, China. 
 
 
 .. _it_skills_list:
@@ -29,10 +29,8 @@ Bachelor of Management from `Xi'an Jiaotong University
 IT Skills
 -------------
 
- * **Be proficient in/Devoting myself to:** Linux, C, Erlang, Python,
-     Common Lisp
- * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript, Objective-,
-     C++
+ * **Be proficient in/Devoting myself to:** Linux, C, Erlang, Python, Common Lisp
+ * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript, Objective-, C++
  * **Know noting about/Can't do:** Almost every thing relevant to MS Windows
 
 Tools I am familiar with and often use
@@ -41,8 +39,8 @@ Tools I am familiar with and often use
  (inculdes OS, Platform, FrameWork, Library, Product, DevTools and so
  on)
 
- * Linux(System progrmming, Kernel Dev)
- * Erlang/otp, couchdb, RabbitMQ
+ * Linux(System progrmming, Kernel Dev), MacOSX
+ * Erlang/otp, RabbitMQ
  * SBCL, ECL
  * Qt(C++ GUI lib),PyQt
  * CPAN
@@ -83,6 +81,10 @@ Projects(by reverse chronological order)
  * `Erlix <http://github.com/KDr2/erlix/>`_: the Ruby interface for
    Erlang [Began at 07/2009, and who can take this project over? mail
    me please].
+
+ * `SB-FastCGI <http://github.com/KDr2/sb-fastcgi/>`_
+
+ * `CL-FastCGI <http://github.com/KDr2/cl-fastcgi/>`_
 
  * A Banking Teller System which can run on kinds of platform [after
    09/2007, and now I'm still working on its Android version]. This

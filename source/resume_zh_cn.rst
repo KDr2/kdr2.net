@@ -13,12 +13,12 @@
  * 性别 : 男
  * 出生年月 : 1983.07.23
  * 民族 : 汉
- * 工作年限 : 2006.07-现在
+ * 工作年龄 : 2006.07-现在
  * EMail : killy.draw#gmail.com
 
 教育背景
 -------------------------------------------
- 2006年毕业于西安交通大学管理学院电子商务系
+ 2002-2006 西安交通大学管理学院电子商务系
 
 IT技能
 ------------------------------------------------------------------
@@ -33,8 +33,8 @@ IT技能
 
  (包括OS/Platform/FrameWork/Library/Product/DevTools等)
 
- * Linux(Linux C, Linux System Admin, Linux System programming, Linux Kernel)
- * Erlang/otp, couchdb, RabbitMQ
+ * Linux(Linux C, Linux System Admin, Linux System programming, Linux Kernel), MacOSX
+ * Erlang/otp, RabbitMQ
  * SBCL, ECL
  * Qt(C++ GUI lib),PyQt
  * CPAN
@@ -75,16 +75,8 @@ IT技能
  * 参与银行前端产品建设，此产品为银行柜员系统产品，目前已经占领国内近
    半银行前端市场，产品为CS结构，Server与Client均采用Eclipse-RCP平台
    构建，另有公司基于Eclipse开发的与之配套的IDE进行业务相关快速批量开
-   发 (Java,Eclipse)
- * ABWeb:此产品基于AB，在兼容AB Server/AB IDE的前提下，通过给Serever扩
-   展插件并植入WebApp使得可以用Browser作为最终前端
-   (Java,Eclipse,Ajax,Comet(Server Push))
- * ABTerm:此产品基于AB, 在兼容AB Server/AB IDE的前提下，通过给Serever
-   扩展插件将SWT组件的动态产生过程转化为VT100指令，并实现事件队列，在
-   VT100终端里实现GUI效果，最终实现可以使用没有运算能力的"傻终端"作为
-   AB Server的最终前端
- * ABWap:在ABWeb基础上改造的手机银行产品，与ABWeb的区别在于事件的同步
-   异步处理/流量控制/安全控制/在Internet上部署 (Java,Eclipse,Wap)
+   发 (Java,Eclipse),后又为此平台增减Web/Wap,字符终端，Android客户端
+   等多种展现引擎
  * 日志分析器:将各种日志分析并绘制成图，提供了方便的扩充机制以便适应格
    式多样的日志文件，(Python,PyQt,MatPlotLib,PyNum)
  * 分布式运算平台:基于Erlang/otp+Python构建的中间件平台，目标是构建分
@@ -109,7 +101,8 @@ IT技能
  * 通读RabbitMQ实现，并对AMQP做了适当补充，将此补充在RabbitMQ上实现
  * Erlix: the Ruby interface for Erlang
    (http://github.com/KDr2/erlix/)
-
+ * SB-FASTCGI : http://github.com/KDr2/sb-fastcgi/
+ * CL-FASTCGI : http://github.com/KDr2/cl-fastcgi/
 
 
 其他
