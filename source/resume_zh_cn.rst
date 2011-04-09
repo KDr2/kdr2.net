@@ -75,7 +75,7 @@ IT技能
  * 参与银行前端产品建设，此产品为银行柜员系统产品，目前已经占领国内近
    半银行前端市场，产品为CS结构，Server与Client均采用Eclipse-RCP平台
    构建，另有公司基于Eclipse开发的与之配套的IDE进行业务相关快速批量开
-   发 (Java,Eclipse),后又为此平台增减Web/Wap,字符终端，Android客户端
+   发 (Java,Eclipse),后又为此平台增加Web/Wap,字符终端，Android客户端
    等多种展现引擎
  * 日志分析器:将各种日志分析并绘制成图，提供了方便的扩充机制以便适应格
    式多样的日志文件，(Python,PyQt,MatPlotLib,PyNum)
