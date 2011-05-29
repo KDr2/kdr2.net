@@ -23,15 +23,7 @@ Page(Article) Information / 页面(文章)信息:
   </script>
   <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
   <!-- AddToAny END -->
-  <br/>
-  <!-- JiaThis Button BEGIN -->
-  <a href="http://www.jiathis.com/share/" class="jiathis"><img
-  src="http://www.jiathis.com/code/images/jiathis2.gif" width="120"
-  height="18" border="0" id="jiathis_a"/></a>
-  <script type="text/javascript"
-  src="http://www.jiathis.com/code/jia.js" charset=utf-8></script>
-  <!-- JiaThis Button END -->
-
+  
   <!-- 51.la-->
   <a href="http://www.51.la/?4383414" target="_blank"><img
   alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;"
