@@ -29,20 +29,4 @@ Page(Article) Information / 页面(文章)信息:
   alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;"
   src="http://img.users.51.la/4383414.asp" style="display:none" /></a>
 
-  <a href="http://www4.clustrmaps.com/counter/maps.php?url=http://kdr2.net"
-  id="clustrMapsLink">
-  <img src="http://www4.clustrmaps.com/counter/index2.php?url=http://kdr2.net"
-  style="border:0px;" alt="Locations of visitors to this page"
-  title="Locations of visitors to this page" id="clustrMapsImg" />
-  </a>
-  <script type="text/javascript">
-  function cantload() {
-  img = document.getElementById("clustrMapsImg");
-  img.onerror = null;
-  img.src = "http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg";
-  document.getElementById("clustrMapsLink").href = "http://www2.clustrmaps.com";
-  }
-  img = document.getElementById("clustrMapsImg");
-  img.onerror = cantload;
-  </script>
   
