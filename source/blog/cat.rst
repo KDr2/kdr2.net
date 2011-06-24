@@ -11,15 +11,12 @@ Cat: Linux
 .. toctree::
    :maxdepth: 1
 
-Cat: Python
+Cat: OCaml
 -------------------
-.. _blog_cat_python:
+.. _blog_cat_ocaml:
 
 .. toctree::
    :maxdepth: 1
-
-   pyc_format
-   20101128_back_to_dreamhost
 
 
 Cat: Erlang
@@ -36,6 +33,16 @@ Cat: Common Lisp
 
 .. toctree::
    :maxdepth: 1
+
+Cat: Python
+-------------------
+.. _blog_cat_python:
+
+.. toctree::
+   :maxdepth: 1
+
+   pyc_format
+   20101128_back_to_dreamhost
 
 
 

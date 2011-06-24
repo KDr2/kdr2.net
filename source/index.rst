@@ -15,10 +15,10 @@ things about me. I built this site with |sphinx|_, and I had put its
 |rst|_ sources on |kd@github|_, you can get it freely if you want.
 
 I'm a programmer, generally I do all of my developments with my laptop
-(MBP MC724). I can write |erlang|_, Common Lisp C, C++, |python|_,
+(MBP MC724). I can write C, |erlang|_, |ocaml|_, |cl|_, C++, |python|_,
 Java, Perl, Javascript and some more programming languages, And I am
-now devoting my mind to the |linux|_, |erlang|_, Common Lisp and
-|python|_ studying.
+now devoting my mind to the |linux|_, |ocaml|_, |erlang|_, |cl|_ and
+|python|_ development on the server side.
 
 Recent Update
 ------------------
@@ -31,15 +31,40 @@ Recent Update
 What am I doing?
 -------------------
 
-.. image:: _static/images/linux-logo.png
-.. image:: _static/images/python-logo.png
-.. image:: _static/images/erlang-logo.png
-.. image:: _static/images/lisp-logo.png
+.. |LINUX| image:: _static/images/linux-logo-small.png
+.. |OCAML| image:: _static/images/ocaml-logo-small.png
+.. |LISP| image:: _static/images/lisp-logo-small.png
+.. |ERLANG| image:: _static/images/erlang-logo-small.png
+.. |PYTHON| image:: _static/images/python-logo-small.png
 
-- |linux|_ : system programming, kernel developing.  :ref:`>>> <blog_cat_linux>`
-- |python|_ : scripting, web developping, diving into cpython, and other things. :ref:`>>> <blog_cat_python>`
-- |erlang|_ : erlang programming, erlang vm studying/developing. :ref:`>>> <blog_cat_erlang>`
-- |cl|_ : programming language study, application dev, server side, and all other things. :ref:`>>> <blog_cat_lisp>`
+- |LINUX| |linux|_ > :ref:`see more on this site>>> <blog_cat_linux>`
+
+ - as my daily operating system
+ - system programming(using gnu c/ansi c and gcc)
+ - kernel development
+ 
+- |OCAML| |ocaml|_ > :ref:`see more on this site >>> <blog_cat_ocaml>`
+
+ - unix system programming
+ - the server side development
+ 
+- |LISP| |cl|_ >  :ref:`see more on this site >>> <blog_cat_lisp>`
+
+ - programming language study
+ - application development
+ - the server side development
+ - and all other things
+ 
+- |ERLANG| |erlang|_ >  :ref:`see more on this site >>> <blog_cat_erlang>`
+
+ - erlang programming
+ - erlang vm study/development
+ 
+- |PYTHON| |python|_ > :ref:`see more on this site >>> <blog_cat_python>`
+
+ - scripting
+ - some web developping
+ - diving into cpython
 
 Open Source Projects
 ------------------------

@@ -85,3 +85,6 @@
 
 .. |gcc| replace:: GCC
 .. _gcc: http://gcc.gnu.org/
+
+.. |ocaml| replace:: OCaml
+.. _ocaml: http://caml.inria.fr/ocaml/index.en.html
