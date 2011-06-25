@@ -40,31 +40,32 @@ What am I doing?
 - |LINUX| |linux|_ > :ref:`see more on this site>>> <blog_cat_linux>`
 
  - as my daily operating system
- - system programming(using gnu c/ansi c and gcc)
+ - system programming(using gnu-c/ansi-c with gcc)
  - kernel development
  
 - |OCAML| |ocaml|_ > :ref:`see more on this site >>> <blog_cat_ocaml>`
 
  - unix system programming
  - the server side development
+ - programming language study
  
 - |LISP| |cl|_ >  :ref:`see more on this site >>> <blog_cat_lisp>`
 
  - programming language study
  - application development
  - the server side development
- - and all other things
  
 - |ERLANG| |erlang|_ >  :ref:`see more on this site >>> <blog_cat_erlang>`
 
  - erlang programming
- - erlang vm study/development
+ - diving into otp and erlang vm 
  
 - |PYTHON| |python|_ > :ref:`see more on this site >>> <blog_cat_python>`
 
  - scripting
  - some web developping
  - diving into cpython
+
 
 Open Source Projects
 ------------------------
