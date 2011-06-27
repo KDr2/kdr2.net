@@ -1,0 +1,22 @@
+USE_OCAMLFIND = true
+BYTE_ENABLED = true
+
+OCAMLFLAGS += -thread 
+
+FILES[] =
+  main
+  config
+  route
+  server
+  actions
+  comments
+  feed
+  database
+  db_sqlite3
+
+OCAMLPACKS += sqlite3,pcre,netsys,json-wheel,netcgi2,xml-light,sha
+
+#OCAML_LIBS += unix
+
+.DEFAULT: $(OCamlProgram main, $(FILES))
+
