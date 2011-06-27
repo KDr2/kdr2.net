@@ -49,5 +49,5 @@ let post_comment (cgi:Netcgi.cgi) arg_map () =
     ("author",Json_type.String author);
     ("url",Json_type.String url);
     ("content",Json_type.String content);
-    ("date",Json_type.String "seconds ago");
+    ("date",Json_type.String "a few seconds ago");
   ] in Json_io.string_of_json ret;;
