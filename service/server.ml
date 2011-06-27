@@ -16,6 +16,20 @@ let run_on_stdin () =
     (fun cgi -> cgi_handler(cgi :> Netcgi.cgi));;
     (* Unix.close(fd) *)
 
+let run_on_fd listen_fd =
+  let fd,_ = Unix.accept listen_fd in while true do
+      ignore(Netcgi_fcgi.handle_request
+               Netcgi.default_config
+               (`Direct "":Netcgi.output_type)
+               (fun _ _ _ -> `Automatic)
+               (fun _ f -> f())
+               (fun cgi -> cgi_handler(cgi :> Netcgi.cgi))
+               ~max_conns:5
+               ~log:None
+               fd);
+    Unix.close(fd)
+    done;;
+  
 let run_on_port port =
   let srvsock=Unix.socket Unix.PF_INET Unix.SOCK_STREAM 0 in
   let ()=Unix.bind srvsock (Unix.ADDR_INET(Unix.inet_addr_any,port)) and
