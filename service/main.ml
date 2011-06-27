@@ -6,7 +6,8 @@ Database.DB.init Config.db_url;;
 let map_init () =
   Route.map "/service/feed/rss" Feed.feed_rss;
   Route.map "/service/comments/get/(?<target>.*)" Comments.get_comments ;
-  Route.map "/service/comments/post" Comments.post_comment ;;
+  Route.map "/service/comments/post" Comments.post_comment ;
+  Route.map ".*" Actions.echo ;; 
 
 map_init ();;
 
