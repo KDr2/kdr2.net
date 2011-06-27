@@ -93,7 +93,7 @@ function post_comment(){
                    $("#cmt_progress").addClass("load_failed");
                    $("#cmt_progress").text("Comment post failed!");
                }else{
-                   append_comment(eval(data));
+                   append_comment(eval(data)[0]);
                    clear_inputs();
                    $("#cmt_progress").addClass("load_succeed");
                    $("#cmt_progress").text("Comment post succeeded");
