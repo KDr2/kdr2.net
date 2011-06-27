@@ -10,26 +10,27 @@ let cgi_handler (cgi:Netcgi.cgi) =
   cgi#out_channel#commit_work();
   cgi#finalize();;
 
+let rec handle_fd fd =
+  match (Netcgi_fcgi.handle_request
+           Netcgi.default_config
+           (`Direct "":Netcgi.output_type)
+           (fun _ _ _ -> `Automatic)
+           (fun _ f -> f())
+           (fun cgi -> cgi_handler(cgi :> Netcgi.cgi))
+           ~max_conns:5
+           ~log:None
+           fd) with
+    | `Conn_keep_alive ->
+      flush (Unix.out_channel_of_descr fd);
+      handle_fd fd
+    | _-> Unix.close(fd);;
 
-let run_on_stdin () =
-  let buffered _ ch = new Netchannels.buffered_trans_channel ch in
-  Netcgi_fcgi.run
-    ~output_type:(`Transactional buffered)
-    (fun cgi -> cgi_handler(cgi :> Netcgi.cgi));;
-    
+
 let run_on_fd listen_fd =
-  let fd,_ = Unix.accept listen_fd in while true do
-      ignore(Netcgi_fcgi.handle_request
-               Netcgi.default_config
-               (`Direct "":Netcgi.output_type)
-               (fun _ _ _ -> `Automatic)
-               (fun _ f -> f())
-               (fun cgi -> cgi_handler(cgi :> Netcgi.cgi))
-               ~max_conns:5
-               ~log:None
-               fd);
-    Unix.close(fd)
-    done;;
+  while true do
+    let fd,_ = Unix.accept listen_fd in
+    (handle_fd fd)
+  done;;
   
 let run_on_port port =
   let srvsock=Unix.socket Unix.PF_INET Unix.SOCK_STREAM 0 in
@@ -40,16 +41,7 @@ let run_on_port port =
 let run_on_fd_threaded ?(threads=5) listen_fd =
   let thread_fun () = while true do
       let fd,_ = Unix.accept listen_fd in
-      ignore(Netcgi_fcgi.handle_request
-               Netcgi.default_config
-               (`Direct "":Netcgi.output_type)
-               (fun _ _ _ -> `Automatic)
-               (fun _ f -> f())
-               (fun cgi -> cgi_handler(cgi :> Netcgi.cgi))
-               ~max_conns:5
-               ~log:None
-               fd);
-      Unix.close(fd)
+      (handle_fd fd)
     done
   and
       ths=ref []
