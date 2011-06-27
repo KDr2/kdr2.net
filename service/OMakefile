@@ -14,7 +14,7 @@ FILES[] =
   database
   db_sqlite3
 
-OCAMLPACKS += sqlite3,pcre,netsys,json-wheel,netcgi2,xml-light,sha
+OCAMLPACKS += sqlite3,pcre,netsys,json-wheel,netcgi2,xml-light
 
 #OCAML_LIBS += unix
 
