@@ -44,4 +44,10 @@ let post_comment (cgi:Netcgi.cgi) arg_map () =
   ignore(Database.DB.update_stmt
            "insert into comments (target,author,email,url,content,date) values (?,?,?,?,?,datetime('now'))"
            [`TEXT target; `TEXT author; `TEXT email; `TEXT url; `TEXT content]);
-  "{status:'ok'}";;
+  let ret = Json_type.Object [
+    ("status",Json_type.String "ok");
+    ("author",Json_type.String author);
+    ("url",Json_type.String url);
+    ("content",Json_type.String content);
+    ("date",Json_type.String "seconds ago");
+  ] in Json_io.string_of_json ret;;
