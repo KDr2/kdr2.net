@@ -14,7 +14,7 @@ let echo (cgi:Netcgi.cgi) url_map () =
   for i=0 to Array.length env - 1 do
     ret := !ret ^ ";" ^ env.(i)
   done;
-  !ret;;
+  !ret ^ (cgi#environment#cgi_path_info) ^ "!";;
 
 let abort404 (cgi:Netcgi.cgi) () =
   cgi#set_header
