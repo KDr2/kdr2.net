@@ -11,11 +11,12 @@ let cgi_handler (cgi:Netcgi.cgi) =
   cgi#finalize();;
 
 
-let run_on_stdin () = 
-  Netcgi_fcgi.run 
+let run_on_stdin () =
+  let buffered _ ch = new Netchannels.buffered_trans_channel ch in
+  Netcgi_fcgi.run
+    ~output_type:(`Transactional buffered)
     (fun cgi -> cgi_handler(cgi :> Netcgi.cgi));;
-    (* Unix.close(fd) *)
-
+    
 let run_on_fd listen_fd =
   let fd,_ = Unix.accept listen_fd in while true do
       ignore(Netcgi_fcgi.handle_request
