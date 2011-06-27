@@ -11,19 +11,10 @@ let cgi_handler (cgi:Netcgi.cgi) =
   cgi#finalize();;
 
 
-let run_on_fd listen_fd = while true do
-    let fd =  listen_fd in
-    ignore(Netcgi_fcgi.handle_request
-             Netcgi.default_config
-             (`Direct "":Netcgi.output_type)
-             (fun _ _ _ -> `Automatic)
-             (fun _ f -> f())
-             (fun cgi -> cgi_handler(cgi :> Netcgi.cgi))
-             ~max_conns:5
-             ~log:None
-             fd);
+let run_on_stdin () = 
+  Netcgi_fcgi.run 
+    (fun cgi -> cgi_handler(cgi :> Netcgi.cgi));;
     (* Unix.close(fd) *)
-  done;;
 
 let run_on_port port =
   let srvsock=Unix.socket Unix.PF_INET Unix.SOCK_STREAM 0 in
