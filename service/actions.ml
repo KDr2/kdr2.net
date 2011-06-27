@@ -9,12 +9,7 @@ let echo (cgi:Netcgi.cgi) url_map () =
     ~cache:`No_cache
     ~content_type:"text/html; charset=\"utf-8\""
     ();
-  let ret = ref "env:" and
-      env = Unix.environment () in
-  for i=0 to Array.length env - 1 do
-    ret := !ret ^ ";" ^ env.(i)
-  done;
-  !ret ^ (cgi#environment#cgi_path_info) ^ "!";;
+  "URL : " ^ (cgi#environment#cgi_property "REQUEST_URI");;
 
 let abort404 (cgi:Netcgi.cgi) () =
   cgi#set_header

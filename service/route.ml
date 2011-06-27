@@ -23,9 +23,12 @@ let map_of_pcre_subs rex subs =
   ) names;
   ret;;
 
+let request_uri (cgi : Netcgi.cgi) =
+  try cgi#environment#cgi_property "REQUEST_URI" with
+      Not_found -> cgi#environment#cgi_path_info;;
+
 let route (cgi : Netcgi.cgi) =
-  let env = cgi#environment in
-  let url = env#cgi_path_info in
+  let url = request_uri cgi in
   (* Hashtbl.fold (fun k v f -> match f with
      | None -> let subs =
      try Some (Pcre.exec ~rex:k url) with
