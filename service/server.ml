@@ -12,7 +12,7 @@ let cgi_handler (cgi:Netcgi.cgi) =
 
 
 let run_on_fd listen_fd = while true do
-    let fd,_ = Unix.accept listen_fd in
+    let fd =  listen_fd in
     ignore(Netcgi_fcgi.handle_request
              Netcgi.default_config
              (`Direct "":Netcgi.output_type)
@@ -22,7 +22,7 @@ let run_on_fd listen_fd = while true do
              ~max_conns:5
              ~log:None
              fd);
-    Unix.close(fd)
+    (* Unix.close(fd) *)
   done;;
 
 let run_on_port port =
