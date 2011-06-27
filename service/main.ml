@@ -12,6 +12,6 @@ map_init ();;
 
 (* Server.run_on_port_threaded 9000;; *)
 
-Server.run_on_stdin;;
+Server.run_on_stdin ();;
 
 Database.DB.destroy();;
