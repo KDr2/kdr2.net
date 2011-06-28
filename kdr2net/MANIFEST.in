@@ -1,3 +1,0 @@
-include kdr2net/config/deployment.ini_tmpl
-recursive-include kdr2net/public *
-recursive-include kdr2net/templates *
