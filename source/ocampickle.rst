@@ -97,7 +97,7 @@ of the data types (actually, all of the pickle opcode) later.
 
 
 .. csv-table:: python data-type supported by ocampickle
-  :header: "type", "proto 0", "proto 1", "proto 2"
+  :header: "type", "proto 0(default)", "proto 1", "proto 2"
 
   None,  pickle/unpickle, pickle/unpickle, pickle/unpickle
   bool,  pickle/unpickle, pickle/unpickle, pickle/unpickle
