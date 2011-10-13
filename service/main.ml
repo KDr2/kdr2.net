@@ -10,9 +10,10 @@ let map_init () =
   Route.map ".*" Actions.echo ;; 
 
 map_init ();;
-(*
+(* * )
 Server.run_on_port_threaded 9000;; 
-*)
+( * *)
+(* *)
 Server.run_on_fd Unix.stdin;;
-
+(* *) 
 Database.DB.destroy();;
