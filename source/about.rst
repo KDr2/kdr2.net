@@ -29,6 +29,10 @@ You can subscribe the |rss|_ of this site to watch its changelog.
 
    digraph foo {
       //rankdir=LR;
+      fontname="courier new"
+      fontsize=12  
+      node [fontname="courier new"
+            fontsize=10]
       "Ocamlnet(O'Caml)" -> "Pylons(Python)" [dir=back];
       "Pylons(Python)" -> "Django(Python)" [dir=back]; 
    }
