@@ -52,6 +52,7 @@
         margin: 0px 0px 5px 0px;
         padding: 5px;
         list-style: none;
+        background-color: #F3F9F1;
       }
   </style>
   <script type="text/javascript" src="/_static/comments.js"></script>
