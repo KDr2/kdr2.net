@@ -31,7 +31,7 @@ You can subscribe the |rss|_ of this site to watch its changelog.
       //rankdir=LR;
       "Ocamlnet(O'Caml)" -> "Pylons(Python)" [dir=back];
       "Pylons(Python)" -> "Django(Python)" [dir=back]; 
-   }  
+   }
 
 - 2010-09-19 change django_ to pylons_
 - 2010-02-28 add rss feed.
