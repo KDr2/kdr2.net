@@ -47,5 +47,11 @@
       .label {
         margin-left: 5px;
       }
+      #comments_ul li{
+        border: 1px dashed #88ADA6;
+        margin: 0px 0px 5px 0px;
+        padding: 5px;
+        list-style: none;
+      }
   </style>
   <script type="text/javascript" src="/_static/comments.js"></script>
