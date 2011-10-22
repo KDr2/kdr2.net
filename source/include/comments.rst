@@ -3,10 +3,10 @@
 
 .. raw:: html
 
-  <!-- UY BEGIN -->
+  <!-- UY BEGIN 
   <div id="uyan_frame"></div>
   <script type="text/javascript" id="UYScript" src="http://uyan.cc/js/iframe.js?UYUserId=1518" async=""></script>
-  <!-- UY END -->
+  UY END -->
   <style type="text/css" media="all">
       .cmt_field {
         border:1px solid #98DBCC;
