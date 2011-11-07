@@ -14,6 +14,7 @@ Friends
 ----------------------
 
 - `Appwill Planet <http://planet.appwill.com/?from=kdr2>`_
+- `APPXCODE http://www.appxcode.com/?from=kdr2>`_
 
 Geeks
 ----------------------------------------
