@@ -13,30 +13,27 @@ Family
 Friends
 ----------------------
 
+- `Appwill Planet <http://planet.appwill.com/?from=kdr2>`_
+
 Geeks
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 - `Erlang非业余研究 <http://blog.yufeng.info/?from=kdr2>`_
 
 Tools I'm using
 ----------------------
 
-- |linux|_
-- |emacs|_
-- |sbcl|_
-- |ecl|_
-- |gcc|_
-- |ocaml|_
-- |debian|_
-- |python|_
-- |erlang|_
+.. csv-table::
 
+ |linux|_, |qemu|_, |debian|_
+ |emacs|_, |orgmode|_
+ |graphviz|_, |sphinx|_
+ |gcc|_
+ |sbcl|_,  |ecl|_
+ |ocaml|_
+ |python|_
+ |erlang|_
 
-Technology Sites
-----------------------
-
-- `Emacs中文网 <http://emacser.com/>`_
-- `LinuxTOY <http://linuxtoy.org/>`_
 
 Useful Things
 ----------------------

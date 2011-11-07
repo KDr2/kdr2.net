@@ -15,12 +15,13 @@
 .. |rss| replace:: RSS Feed
 .. _rss: http://kdr2.net/service/feed/rss
 
+.. =========================================================
 .. third-party external links and jargons
 
 .. |rst| replace:: reStructuredText
 .. _rst: http://docutils.sourceforge.net/rst.html
 
-.. |sphinx| replace:: Sphinx
+.. |sphinx| replace:: SphinxDoc
 .. _sphinx: http://sphinx.pocoo.org/
 
 .. |emacs| replace:: Emacs
@@ -88,3 +89,12 @@
 
 .. |ocaml| replace:: OCaml
 .. _ocaml: http://caml.inria.fr/ocaml/index.en.html
+
+.. |orgmode| replace:: Org-Mode
+.. _orgmode: http://orgmode.org/
+
+.. |qemu| replace:: QEMU
+.. _qemu: http://wiki.qemu.org/Main_Page
+
+.. |graphviz| replace:: Graphviz
+.. _graphviz: http://www.graphviz.org/
