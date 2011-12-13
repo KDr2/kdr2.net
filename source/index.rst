@@ -75,7 +75,7 @@ Open Source Projects
    sb-fastcgi
    cl-fastcgi
    ocampickle
-   erlix
+   `erlix`
 
 Other Contents
 ------------------

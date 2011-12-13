@@ -26,15 +26,10 @@ Tools I'm using
 
 .. csv-table::
 
- |linux|_, |qemu|_, |debian|_
- |emacs|_, |orgmode|_
- |graphviz|_, |sphinx|_
- |gcc|_
- |sbcl|_,  |ecl|_
- |ocaml|_
- |python|_
- |erlang|_
-
+ |linux|_, |qemu|_, |debian|_, |gcc|_
+ |emacs|_,
+ |python|_,  |erlang|_, |ocaml|_,  |sbcl|_,  |ecl|_
+ |orgmode|_,|graphviz|_, |sphinx|_
 
 Useful Things
 ----------------------
