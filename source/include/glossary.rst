@@ -66,6 +66,9 @@
 .. |ruby| replace:: Ruby
 .. _ruby: http://www.ruby-lang.org
 
+.. |lua| replace:: Lua
+.. _lua: http://www.lua.org
+
 .. |linux| replace:: Linux
 .. _linux: http://www.kernel.org
 

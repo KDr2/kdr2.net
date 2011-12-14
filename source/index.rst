@@ -15,10 +15,10 @@ things about me. I built this site with |sphinx|_, and I had put its
 |rst|_ sources on |kd@github|_, you can get it freely if you want.
 
 I'm a programmer, generally I do all of my developments with my laptop
-(MBP MC724). I can write C, |erlang|_, |ocaml|_, |cl|_, C++, |python|_,
+(MBP MC724). I can write C/C++, |erlang|_, |ocaml|_, |cl|_, |python|_,
 Java, Perl, Javascript and some more programming languages, And I am
-now devoting my mind to the |linux|_, |ocaml|_, |erlang|_, |cl|_ and
-|python|_ development on the server side.
+now devoting my mind to the |linux|_, |python|_, |erlang|_, |lua|_, |cl|_ and
+|ocaml|_ development on the server side.
 
 Recent Update
 ------------------

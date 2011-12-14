@@ -14,7 +14,7 @@ Friends
 ----------------------
 
 - `Appwill Planet <http://planet.appwill.com/?from=kdr2>`_
-- `APPXCODE http://www.appxcode.com/?from=kdr2>`_
+- `APPXCODE <http://www.appxcode.com/?from=kdr2>`_
 
 Geeks
 ----------------------------------------
@@ -28,8 +28,8 @@ Tools I'm using
 
  |linux|_, |qemu|_, |debian|_, |gcc|_
  |emacs|_,
- |python|_,  |erlang|_, |ocaml|_,  |sbcl|_,  |ecl|_
- |orgmode|_,|graphviz|_, |sphinx|_
+ |python|_,  |erlang|_, |lua|_, |ocaml|_,  |sbcl|_,  |ecl|_
+ |orgmode|_, |graphviz|_, |sphinx|_
 
 Useful Things
 ----------------------
