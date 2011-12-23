@@ -64,10 +64,13 @@ class CommentsPoster(object):
         sequence_id = utils.db.insert('comments', **data)
         data['id']=sequence_id
         data['date']=datetime.datetime.now()
-        r=base64.decodestring('a2lsbHkuZHJhd0BnbWFpbC5jb20=\n')
-        subject=u'[KDr2.net]: New Comment from [%s]' % data['author']
-        content=u'Comment Content:\n\n%s\n' % data['content']
-        email_sender.sendmail_text(r,subject,content)
+        try:
+            r=base64.decodestring('a2lsbHkuZHJhd0BnbWFpbC5jb20=\n')
+            subject=u'[KDr2.net]: New Comment from [%s]' % data['author']
+            content=u'Comment Content:\n\n%s\n' % data['content']
+            email_sender.sendmail_text(r,subject,content)
+        except:
+            pass
         return json.dumps([format_comment(data)])
 
 
