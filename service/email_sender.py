@@ -25,8 +25,11 @@ def sendmail(to,subject,**mime):
     for t,c in mime.items():
         part = MIMEText(c, _subtype=t,_charset='utf-8')
         msg.attach(part)
-        
-    email_server = smtplib.SMTP(utils.get_config('email_server'))
+
+    port=25
+    if "gmail" in utils.get_config('email_server').lower():
+        port=587
+    email_server = smtplib.SMTP(utils.get_config('email_server'),port)
     if "gmail" in utils.get_config('email_server').lower():
         email_server.starttls()
     email_server.login(utils.get_config('email_username'),utils.get_config('email_password'))
