@@ -1,0 +1,11 @@
+AddHandler fastcgi-script .fcgi
+Options +FollowSymLinks +ExecCGI
+
+RewriteEngine On
+#RewriteBase /
+RewriteCond %{REQUEST_URI} !^/icons
+RewriteCond %{REQUEST_URI} !^/favicon.ico$
+RewriteCond %{REQUEST_URI} !^(/.*)+kdr2net.fcgi/
+RewriteRule ^(.*)$ kdr2net.fcgi/$1 [PT]
+#RewriteRule ^kdr2net\.fcgi/ - [L]
+#RewriteRule ^(.*)$ kdr2net.fcgi [L]
