@@ -23,7 +23,7 @@ Changelog of this site
 
 You can subscribe the |rss|_ of this site to watch its changelog.
 
-- 2011-06-27 rewrite service using O'Caml
+- 2011-06-27 rewrite service using O'Caml/web.py
 
 .. graphviz::
 
@@ -33,6 +33,7 @@ You can subscribe the |rss|_ of this site to watch its changelog.
       fontsize=12  
       node [fontname="courier new"
             fontsize=10]
+      "web.py(Python)"  -> "Pylons(Python)" [dir=back];
       "Ocamlnet(O'Caml)" -> "Pylons(Python)" [dir=back];
       "Pylons(Python)" -> "Django(Python)" [dir=back]; 
    }
