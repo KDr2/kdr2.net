@@ -24,9 +24,8 @@ Page(Article) Information / 页面(文章)信息:
   <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
   <!-- AddToAny END -->
   
-  <!-- 51.la
+  <!-- 51.la   -->
   <a href="http://www.51.la/?4383414" target="_blank"><img
   alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;"
   src="http://img.users.51.la/4383414.asp" style="display:none" /></a>
-  -->
   

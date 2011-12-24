@@ -16,7 +16,7 @@ from BeautifulSoup import BeautifulSoup as BS
 
 
 date_re=re.compile(r'^\.\.\s+date\s*:\s*(.*?)\s*$')
-info="""
+info=u"""
 <h2>Page(Article) Information / 页面(文章)信息:
   <a class="headerlink" href="#page-article-information" title="Permalink to this headline"></a>
 </h2>
