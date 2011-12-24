@@ -19,7 +19,7 @@ Where is my old blog?
 
 It's gone, because I hate writting things in an online editor. Since
 now, I will write pages with my |emacs|_ in |rst|_ format, and compile
-them use |sphinx|_.
+them using |sphinx|_.
 
 Changelog of this site
 -----------------------
@@ -50,3 +50,4 @@ You can subscribe the |rss|_ of this site to watch its changelog.
 .. include:: include/footer.rst
 
 .. include:: include/comments.rst
+
