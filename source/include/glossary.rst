@@ -13,7 +13,7 @@
 .. |email| replace:: killy.draw *at* gmail *dot* com
 
 .. |rss| replace:: RSS Feed
-.. _rss: http://kdr2.net/service/feed/rss
+.. _rss: /service/feed/rss
 
 .. =========================================================
 .. third-party external links and jargons

@@ -1,3 +1,6 @@
+.. Ocampockle
+.. author : KDr2
+.. date : 2011-07-06 17:32
 
 .. include:: include/glossary.rst
 

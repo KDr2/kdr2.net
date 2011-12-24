@@ -20,13 +20,12 @@ Java, Perl, Javascript and some more programming languages, And I am
 now devoting my mind to the |linux|_, |python|_, |erlang|_, |lua|_, |cl|_ and
 |ocaml|_ development on the server side.
 
-Recent Update
+Recently Updates
 ------------------
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   blog/pyc_format
-   blog/20101128_back_to_dreamhost
+   update
 
 What am I doing?
 -------------------
@@ -83,6 +82,7 @@ Other Contents
 .. toctree::
    :maxdepth: 1
 
+   update
    scheduler
    blog/index
    about

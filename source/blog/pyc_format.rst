@@ -1,3 +1,6 @@
+.. pyc file format
+.. author : KDr2
+.. date : 2010-12-24 10:05
 
 .. include:: ../include/glossary.rst
 

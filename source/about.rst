@@ -1,8 +1,11 @@
 .. about
+.. date : 2011-11-28 22:17
+
 .. include:: include/glossary.rst
 
 About This Site
 ====================
+
 
 It's built on Sphinx
 ---------------------
@@ -43,7 +46,6 @@ You can subscribe the |rss|_ of this site to watch its changelog.
 - 2010-02-04 add comments service based on django_ and Ajax.
 - 2010-02-04 remove the blog based on |wordpress|_.
 - 2010-01-31 built the first version with |sphinx|_.
-
 
 .. include:: include/footer.rst
 

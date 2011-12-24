@@ -1,3 +1,6 @@
+.. 
+.. author : KDr2
+.. date : 2010-11-28 10:17
 
 .. include:: ../include/glossary.rst
 
