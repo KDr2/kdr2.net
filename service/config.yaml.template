@@ -1,0 +1,22 @@
+#-*- yaml -*-
+#-*- coding:utf-8 -*-
+# author : KDr2
+
+#database setting:
+
+db_dbn:  "mysql"
+db_host: "127.0.0.1"
+db_port: 3306
+db_db:   "dev"
+db_user: "root"
+db_pw:   ""
+
+#email settings
+
+email_server:    "smtp.gmail.com"
+email_username:  "somebody@gmail.com"
+email_password:  ""
+email_from:      "somebody@gmail.com"
+
+
+
