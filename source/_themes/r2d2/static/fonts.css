@@ -1,0 +1,35 @@
+
+@font-face {
+  font-family: 'Neuton';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Neuton Regular'), local('Neuton-Regular'), url('http://kdr2.net/depot/fonts/Neuton-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Nobile';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Nobile'), url('http://kdr2.net/depot/fonts/Nobile-italic-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Nobile-bold'), local('Nobile'), url('http://kdr2.net/depot/fonts/Nobile-bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Nobile'), url('http://kdr2.net/depot/fonts/Nobile-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Nobile';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Nobile-italic'), url('http://kdr2.net/depot/fonts/Nobile-italic.woff') format('woff');
+}
+
+
+
