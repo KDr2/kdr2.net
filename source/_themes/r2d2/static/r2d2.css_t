@@ -349,4 +349,9 @@ tt.xref {
     font-style: normal;
 }
 
+table.docutils td, table.docutils th{
+    border-width: 1px;
+    border-style: dotted;    
+}
+
 
