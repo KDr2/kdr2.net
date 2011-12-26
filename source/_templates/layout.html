@@ -3,3 +3,13 @@
     <link rel="alternate" type="application/rss+xml" title="KDr2's Site!" href="http://kdr2.net/service/feed/rss" /> 
     {{super()}}
 {% endblock %}
+
+
+{%- block sidebarlogo %}
+{{ super() }}
+    <ul>
+      <li><a href="https://github.com/KDr2">Me on GitHub</a></li>
+      <li><a href="/about.html">About This Site</a></li>
+    </ul>
+{%- endblock %}
+    
