@@ -46,13 +46,23 @@ div.document {
 
 div.header {
     width:100%;
-    /*background: #f4ad32 url(headerbg.png) repeat-x 0 top;*/
     border-bottom: 2px solid #ffffff;
 }
 
 div.logo {
     text-align: center;
     padding-top: 10px;
+}
+
+div.extlinks {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 6px;
+    font-size: 1.2em;
+}
+
+div.extlinks ul{
+    list-style: square outside none;
 }
 
 div.body {

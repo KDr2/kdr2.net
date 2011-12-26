@@ -85,7 +85,6 @@ Other Contents
    update
    scheduler
    blog/index
-   about
    links
 
 Contact Me
