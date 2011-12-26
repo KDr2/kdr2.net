@@ -10,6 +10,6 @@ A Hidden Page
    resume
    resume_zh_cn
    blog/cat
-
+   about
 
 .. include:: include/footer.rst
