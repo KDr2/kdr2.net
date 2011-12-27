@@ -131,6 +131,8 @@ div.sphinxsidebar {
     {%- endif %}
     {%- if theme_rightsidebar|tobool %}
     float: right;
+    _position: absolute;
+    _right: 0;
     {%- if theme_stickysidebar|tobool %}
     right: 0;
     {%- endif %}
