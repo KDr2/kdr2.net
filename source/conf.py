@@ -113,7 +113,7 @@ html_short_title = "KDr2.net"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = '_static/R2-D2.128.png'
+html_logo = '_static/KDr2.LOGO.png'
 
 
 # The name of an image file (within the static path) to use as favicon of the
