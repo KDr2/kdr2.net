@@ -367,6 +367,7 @@ function有两个默认参数.
 http://docs.python.org/release/2.7/library/dis.html#python-bytecode-instructions
 
 
+.. include:: ../include/gad_banner.rst
 
 .. include:: ../include/footer.rst
 .. include:: ../include/comments.rst
