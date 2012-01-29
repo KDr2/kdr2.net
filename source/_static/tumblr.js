@@ -5,9 +5,9 @@
 
 
 function setup_tumblr(){
-    ul=$('#recently-updates ul');
+    ul=$('#recently-updates > ul');
     tumblr_container='<li class="toctree-l1">'+
-        '<span class="reference internal">Recently Updates on This Site'+
+        '<span class="reference internal">Recently Updates on Tumblr'+
         '</span><ul id="tumblr_feeds"></ul></li>';
     ul.append($(tumblr_container));
 
