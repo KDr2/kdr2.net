@@ -13,7 +13,7 @@ import utils
 import router
 
 @router.route(r'/tumblr/feed.json')
-class CommentsGetter(object):
+class TumblrFeedGetter(object):
 
     def GET(self):
         tumblr=utils.get_tumblr_rss(max_size=5)

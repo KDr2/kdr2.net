@@ -16,7 +16,7 @@ function setup_tumblr(){
         for(var i=0;i<feeds.length;i++){
             item='<li class="toctree-l2">'+
                 '<a class="reference internal" href="'+
-                feeds[i]['link']+'">'+
+                feeds[i]['link']+'" target="_blank">'+
                 feeds[i]['title']+'</a></li>';
             $("#tumblr_feeds").append($(item));
         }
