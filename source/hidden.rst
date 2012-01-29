@@ -11,5 +11,6 @@ A Hidden Page
    resume_zh_cn
    blog/cat
    about
+   include/tumblr
 
 .. include:: include/footer.rst

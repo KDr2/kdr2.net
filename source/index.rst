@@ -22,6 +22,7 @@ now devoting my mind to the |linux|_, |python|_, |erlang|_, |lua|_, |cl|_ and
 
 Recently Updates
 ------------------
+
 .. toctree::
    :maxdepth: 2
 
@@ -97,6 +98,7 @@ Contact Me
  - Feed    : |rss|_
 
 .. include:: include/footer.rst
+.. include:: include/tumblr.rst
 
 .. Indices and tables
 .. ==================

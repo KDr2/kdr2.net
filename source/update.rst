@@ -2,8 +2,8 @@
 .. author : KDr2
 ..
 
-Recently Updates
-====================
+Recently Updates on This Site
+==================================
 
 .. toctree::
    :maxdepth: 1
