@@ -86,7 +86,18 @@ class CFeed(object):
     def GET(self):
         web.header('Content-Type', 'text/xml; charset=UTF-8')
         flist=self.get_feed_list()
-        feed=map(self.get_feed_item,flist)
+        local=map(self.get_feed_item,flist)
+        tumblr=utils.get_tumblr_rss()
+        feed=local+tumblr
+        try:
+            f="%a, %d %b %Y %H:%M:%S +0800"
+            feed.sort(cmp=lambda x,y:\
+                          int((datetime.datetime.strptime(x['date'],f) - 
+                               datetime.datetime.strptime(y['date'],f)).total_seconds()),
+                      reverse=True)
+        except:
+            raise
+            pass
         return utils.render.rss(feed=feed)
 
     
