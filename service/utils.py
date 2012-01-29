@@ -16,6 +16,14 @@ from BeautifulSoup import BeautifulSoup as BS
 
 __CONFIG__={}
 
+def rootdir(subdir=None):
+    sd=os.path.abspath(os.path.dirname(__file__))
+    root=os.path.dirname(sd)
+    if subdir:
+        return os.path.join(root,subdir)
+    return root
+
+
 def get_config(key,default=None):
     global __CONFIG__
     if not __CONFIG__:
@@ -44,6 +52,7 @@ db=web.database(dbn=get_config('db_dbn','mysql'),
 
 def get_tumblr_rss(max_size=None):
     try:
+        """
         #f=urllib2.urlopen('http://n.kdr2.net/rss')
         opener = urllib2.build_opener()
         opener.addheaders = [
@@ -52,6 +61,8 @@ def get_tumblr_rss(max_size=None):
             ]
         f=opener.open('http://n.kdr2.net/rss')
         xml=f.read()
+        """
+        xml=file(rootdir("data/tumblr_feeds.xml")).read()
         rss=BS(xml)
         items=rss.channel.findAll('item')
         if max_size:items=items[:max_size]
@@ -72,3 +83,5 @@ def get_tumblr_rss(max_size=None):
     except:
         return []
 
+
+    

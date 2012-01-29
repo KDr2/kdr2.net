@@ -96,7 +96,6 @@ class CFeed(object):
                                datetime.datetime.strptime(y['date'],f)).total_seconds()),
                       reverse=True)
         except:
-            raise
             pass
         return utils.render.rss(feed=feed)
 

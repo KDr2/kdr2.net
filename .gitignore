@@ -8,3 +8,6 @@
 *.opt
 *.run
 .DS_*
+
+
+build/
