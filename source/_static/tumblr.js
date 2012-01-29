@@ -9,9 +9,10 @@ function setup_tumblr(){
     $.get('/service/tumblr/feed.json', function(data) {
         ul=$('#recently-updates ul')[0];
         tumblr_container='<li class="toctree-l1">'+
-            '<span class="reference internal">'+
+            '<a class="reference internal" href="'+
+            'http://n.kdr2.net" target="_blank">'+
             'Recently Updates on Tumblr'+
-            '</span><ul id="tumblr_feeds"></ul></li>';
+            '</a><ul id="tumblr_feeds"></ul></li>';
         
         $(ul).append($(tumblr_container));
         

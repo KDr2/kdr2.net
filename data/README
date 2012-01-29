@@ -1,0 +1,6 @@
+.. -*- rst -*-
+
+cron jobs:
+
+* script/update_tumblr_feed.py
+

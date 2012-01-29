@@ -9,5 +9,6 @@
 *.run
 .DS_*
 
-
+data/*.db
+data/*.xml
 build/
