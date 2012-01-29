@@ -5,11 +5,11 @@
 
 
 function setup_tumblr(){
-    ul=$('#recently-updates > ul');
+    ul=$('#recently-updates ul')[0];
     tumblr_container='<li class="toctree-l1">'+
         '<span class="reference internal">Recently Updates on Tumblr'+
         '</span><ul id="tumblr_feeds"></ul></li>';
-    ul.append($(tumblr_container));
+    $(ul).append($(tumblr_container));
 
     $.get('/service/tumblr/feed.json', function(data) {
         var feeds=eval(data);
@@ -18,7 +18,7 @@ function setup_tumblr(){
                 '<a class="reference internal" href="'+
                 feeds[i]['link']+'">'+
                 feeds[i]['title']+'</a></li>';
-            comments_ul.append($(item));
+            $("#tumblr_feeds").append($(item));
         }
     });
 }
