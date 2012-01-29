@@ -6,7 +6,6 @@
 import os
 import sys
 import glob
-import yaml
 
 def rootdir(subdir=None):
     script=os.path.abspath(os.path.dirname(__file__))
