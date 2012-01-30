@@ -18,6 +18,6 @@ def rootdir(subdir=None):
 if __name__=='__main__':
     data_dir=rootdir('data')
     tumblr_feeds='http://n.kdr2.net/rss'
-    os.system("curl %s -o %s/tumblr_feeds.xml" % (tumblr_feeds,data_dir))
+    os.system("curl %s -H 'Accept-Encoding: gzip' |gunzip - >%s/tumblr_feeds.xml" % (tumblr_feeds,data_dir))
     
 
