@@ -61,7 +61,10 @@ release = '1.0'
 #today_fmt = '%B %d, %Y'
 
 # List of documents that shouldn't be included in the build.
-unused_docs = ['include/comments','include/glossary','include/footer',]
+unused_docs = ['include/comments',
+               'include/glossary',
+               'include/footer',
+               'include/tumblr']
 
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
