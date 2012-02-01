@@ -22,7 +22,7 @@ function setup_tumblr(){
                 '<a class="reference internal" href="'+
                 feeds[i]['link']+'" target="_blank">'+
                 feeds[i]['title']+'</a></li>';
-            $("#tumblr_feeds").append($(item));
+            $("#tumblr_feeds").prepend($(item));
         }
     });
 }
