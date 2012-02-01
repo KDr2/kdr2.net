@@ -14,7 +14,7 @@ function setup_tumblr(){
             'Recently Updates on Tumblr'+
             '</a><ul id="tumblr_feeds"></ul></li>';
         
-        $(ul).append($(tumblr_container));
+        $(ul).prepend($(tumblr_container));
         
         var feeds=eval(data);
         for(var i=0;i<feeds.length;i++){
@@ -22,7 +22,7 @@ function setup_tumblr(){
                 '<a class="reference internal" href="'+
                 feeds[i]['link']+'" target="_blank">'+
                 feeds[i]['title']+'</a></li>';
-            $("#tumblr_feeds").prepend($(item));
+            $("#tumblr_feeds").append($(item));
         }
     });
 }
