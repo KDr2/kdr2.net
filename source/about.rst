@@ -10,8 +10,8 @@ About This Site
 It's built on Sphinx
 ---------------------
 
-That's obviously.
-
+I built this site with |sphinx|_, and I had put its |rst|_ sources on
+|kd@github|_, you can get it freely if you want. 
 
 
 Where is my old blog?
@@ -21,10 +21,13 @@ It's gone, because I hate writting things in an online editor. Since
 now, I will write pages with my |emacs|_ in |rst|_ format, and compile
 them using |sphinx|_.
 
+
 Changelog of this site
 -----------------------
 
-You can subscribe the |rss|_ of this site to watch its changelog.
+You can subscribe the |rss|_ of this site to watch its content updates.
+
+The Source Code updates:
 
 - 2011-06-27 rewrite service using O'Caml/web.py
 
@@ -47,7 +50,7 @@ You can subscribe the |rss|_ of this site to watch its changelog.
 - 2010-02-04 remove the blog based on |wordpress|_.
 - 2010-01-31 built the first version with |sphinx|_.
 
-.. include:: include/footer.rst
+.. .. include:: include/footer.rst
 
 .. include:: include/comments.rst
 

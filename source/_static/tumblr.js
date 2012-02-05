@@ -7,7 +7,7 @@
 function setup_tumblr(){
 
     $.get('/service/tumblr/feed.json', function(data) {
-        ul=$('#recently-updates ul')[0];
+        ul=$('#recent-updates ul')[0];
         tumblr_container='<li class="toctree-l1">'+
             '<a class="reference internal" href="'+
             'http://n.kdr2.net" target="_blank">'+
