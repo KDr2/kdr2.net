@@ -13,13 +13,8 @@ Family
 Friends
 ----------------------
 
-- `Appwill Planet <http://planet.appwill.com/?from=kdr2>`_
 - `APPXCODE <http://www.appxcode.com/?from=kdr2>`_
 
-Geeks
-----------------------------------------
-
-- `Erlang非业余研究 <http://blog.yufeng.info/?from=kdr2>`_
 
 Tools I'm using
 ----------------------
@@ -42,4 +37,4 @@ WebTools
   <http://www.ficml.org/jemimap/style/color/wheel.html>`_
 - `汉典 <http://www.zdic.net/>`_
 
-.. include:: include/footer.rst
+
