@@ -34,16 +34,18 @@ IT技能
 
  (包括OS/Platform/FrameWork/Library/Product/DevTools等)
 
- * Linux(Linux C, Linux System Admin, Linux System programming, Linux Kernel), MacOSX
+ * Linux(System progrmming, Kernel Dev), MacOSX
+ * GCC
  * Erlang/otp, RabbitMQ
  * SBCL, ECL
  * Qt(C++ GUI lib),PyQt
- * CPAN
- * Pylons, WSGI
+ * CPython, PyPy, WSGI, Tornado, Pylons
  * jQuery
- * apache/nginx(module developing)/bind(named)/proftpd/subversion/git/trac
- * MySQL,MySQl-Proxy,SphinxSearch,SQLite
+ * apache/nginx/bind(named)/proftpd/subversion/git/hg/trac
+ * Redis, Cassandra, Mongo
+ * PostgreSQL,SphinxSearch,SQLite
  * |emacs|_/|sphinx|_/|wordpress|_
+
 
 工作经验
 ---------------------------------------------------------------------
@@ -70,7 +72,7 @@ IT技能
    页块等工作 (Perl/C)
  * 搭建bind9服务器，以域名解析方式实现简单DCN
 
-2007.07.28-今, 北京赞同科技发展有限公司
+2007.07.28-2011.04, 北京赞同科技发展有限公司
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  * 参与银行前端产品建设，此产品为银行柜员系统产品，目前已经占领国内近
@@ -86,7 +88,11 @@ IT技能
  * telnetd server:(under linux and sco): 带有终端绑定功能的telnetd服务
    器。
 
+2011.05-今, 北京爱微创想科技有限公司(Appwill Inc.)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+ * 负责Server端开发工作
+   
 2006.07.15-今 兼职工作经验
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -98,7 +104,7 @@ IT技能
 业余时间工作经验
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * 了解开源软件实现，包含CPython,CRuby,Linux Kernel
+ * 了解开源软件实现，包含CPython,Linux Kernel
  * 通读RabbitMQ实现，并对AMQP做了适当补充，将此补充在RabbitMQ上实现
  * Erlix: the Ruby interface for Erlang
    (http://github.com/KDr2/erlix/)

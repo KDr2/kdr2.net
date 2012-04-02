@@ -2,9 +2,6 @@
 
 .. include:: include/glossary.rst
 
-
-
-
 KDr2's Resume
 ======================
 
@@ -30,8 +27,8 @@ Education
 IT Skills
 -------------
 
- * **Be proficient in/Devoting myself to:** Linux, C, Erlang, Python, Common Lisp
- * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript, Objective-, C++
+ * **Be proficient in/Devoting myself to:** Linux, C/C++, Erlang, Python, Common Lisp
+ * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript
  * **Know noting about/Can't do:** Almost every thing relevant to MS Windows
 
 Tools I am familiar with and often use
@@ -41,14 +38,15 @@ Tools I am familiar with and often use
  on)
 
  * Linux(System progrmming, Kernel Dev), MacOSX
+ * GCC
  * Erlang/otp, RabbitMQ
  * SBCL, ECL
  * Qt(C++ GUI lib),PyQt
- * CPAN
- * Pylons, WSGI
+ * CPython, PyPy, WSGI, Tornado, Pylons
  * jQuery
- * apache/nginx/bind(named)/proftpd/subversion/git/trac
- * MySQL,MySQl-Proxy,SphinxSearch,SQLite
+ * apache/nginx/bind(named)/proftpd/subversion/git/hg/trac
+ * Redis, Cassandra, Mongo
+ * PostgreSQL,SphinxSearch,SQLite
  * |emacs|_/|sphinx|_/|wordpress|_
 
 
