@@ -48,6 +48,7 @@ Other Contents
    :maxdepth: 1
 
    scheduler
+   tech-plan
    blog/index
    links
 
