@@ -2,7 +2,7 @@
 
 .. include:: include/glossary.rst
 
-KDr2's Public Scheduler
+KDr2's Public Schedule
 ==========================
 
 .. raw:: html

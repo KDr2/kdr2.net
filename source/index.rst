@@ -47,7 +47,7 @@ Other Contents
 .. toctree::
    :maxdepth: 1
 
-   scheduler
+   schedule
    tech-plan
    blog/index
    links
