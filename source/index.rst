@@ -55,6 +55,7 @@ Other Contents
 Contact Me
 -----------------
 
+ - `Ask me anything on Tumblr <http://n.kdr2.net/ask>`_
  - skype   : zhuoql
  - gtalk   : |email|
  - email   : |email|
