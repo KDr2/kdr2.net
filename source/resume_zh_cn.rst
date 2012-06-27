@@ -25,8 +25,8 @@ IT技能
 ------------------------------------------------------------------
 
 
- * **精通/致力于:** Linux, C,  Erlang, Python, Common Lisp
- * **熟练/也能做:** Java, Perl, |ruby|_, JavaScript, Objective-C, C++, Bash
+ * **精通/致力于:** Linux, C,  Erlang, Python, |ruby|_, Common Lisp
+ * **熟练/也能做:** Java, Perl, JavaScript, Objective-C, C++, Bash
  * **不会做/不能做:**  MS Window平台相关开发
 
 常用工具
@@ -35,42 +35,25 @@ IT技能
  (包括OS/Platform/FrameWork/Library/Product/DevTools等)
 
  * Linux(System progrmming, Kernel Dev), MacOSX
- * GCC
+ * GCC, GDB, LLVM
  * Erlang/otp, RabbitMQ
  * SBCL, ECL
- * Qt(C++ GUI lib),PyQt
+ * Qt(C++ GUI lib), PyQt
  * CPython, PyPy, WSGI, Tornado, Pylons
+ * MRI, Rubinius, Rails
  * jQuery
- * apache/nginx/bind(named)/proftpd/subversion/git/hg/trac
+ * nginx/proftpd/subversion/git/hg/trac
  * Redis, Cassandra, Mongo
  * PostgreSQL,SphinxSearch,SQLite
- * |emacs|_/|sphinx|_/|wordpress|_
+ * |emacs|_, |sphinx|_, Graphviz
 
 
 工作经验
 ---------------------------------------------------------------------
-
-2003.07.30-2006.03.30,在读时间(大二-大四)
+2011.05-今, 北京爱微创想科技有限公司(Appwill Inc.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * 西安交大新闻网(腾飞网)开发 (Java,JSP,Servlet,MySQL)
- * 兼职做过很多小型企业应用(包含MIS/GIS，大都采用Java技术)
-
-
-2006.07.15-2007.5.15, 西安双捷科技有限公司
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
- * Web版输入法的实现 (JavaScript/Ajax/GWT)
- * 抓取网络数据(输入法词表)的爬虫的实现 (Ruby)
-
-2007.05.20-2007.07.20, 北京傲游天下科技有限公司(Maxthon)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
- * 参与http://start.maxthon.com的建设 (Perl,Ajax)
- * 新闻抓取模块实现,包含抓取页面，解析提取页面,提取出相关CSS与JS，展示
-   页块等工作 (Perl/C)
- * 搭建bind9服务器，以域名解析方式实现简单DCN
+ * 负责Server端开发工作
 
 2007.07.28-2011.04, 北京赞同科技发展有限公司
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,29 +71,38 @@ IT技能
  * telnetd server:(under linux and sco): 带有终端绑定功能的telnetd服务
    器。
 
-2011.05-今, 北京爱微创想科技有限公司(Appwill Inc.)
+
+2007.05.20-2007.07.20, 北京傲游天下科技有限公司(Maxthon)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * 负责Server端开发工作
-   
-2006.07.15-今 兼职工作经验
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 参与http://start.maxthon.com的建设 (Perl,Ajax)
+ * 新闻抓取模块实现,包含抓取页面，解析提取页面,提取出相关CSS与JS，展示
+   页块等工作 (Perl/C)
+ * 搭建bind9服务器，以域名解析方式实现简单DCN
 
- * 编写nginx模块，以memcached/MySQL为存储后端，实现高性能点击计数器
- * 编写mysql-proxy脚本，实现各种需求下的读写分离(支持事务)
- * postfix+extmail搭建mail系统
+
+2006.07.15-2007.5.15, 西安双捷科技有限公司
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ * Web版输入法的实现 (JavaScript/Ajax/GWT)
+ * 抓取网络数据(输入法词表)的爬虫的实现 (Ruby)
+
+2003.07.30-2006.03.30,在读时间(大二-大四)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ * 西安交大新闻网(腾飞网)开发 (Java,JSP,Servlet,MySQL)
+ * 兼职做过很多小型企业应用(包含MIS/GIS，大都采用Java技术)
 
 
 业余时间工作经验
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- * 了解开源软件实现，包含CPython,Linux Kernel
  * 通读RabbitMQ实现，并对AMQP做了适当补充，将此补充在RabbitMQ上实现
  * Erlix: the Ruby interface for Erlang
    (http://github.com/KDr2/erlix/)
  * SB-FASTCGI : http://github.com/KDr2/sb-fastcgi/
  * CL-FASTCGI : http://github.com/KDr2/cl-fastcgi/
-
+ * More on my github: http://github.com/KDr2/
 
 其他
 ----------------------------------------------------------------------
