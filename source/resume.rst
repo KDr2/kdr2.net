@@ -18,8 +18,7 @@ Personal Infomation
 Education
 -------------
 
-[2002-2006] `Xi'an Jiaotong University
-<http://www.xjtu.edu.cn>`_, China. 
+[2002-2006] `Xi'an Jiaotong University <http://www.xjtu.edu.cn>`_, China. 
 
 
 .. _it_skills_list:
@@ -27,8 +26,8 @@ Education
 IT Skills
 -------------
 
- * **Be proficient in/Devoting myself to:** Linux, C/C++, Erlang, Python, Common Lisp
- * **Good at/Can also do:**  Java, Perl, Ruby, JavaScript
+ * **Be proficient in/Devoting myself to:** Linux, C/C++, Erlang, Python, Ruby, Common Lisp
+ * **Good at/Can also do:**  Java, Perl, JavaScript
  * **Know noting about/Can't do:** Almost every thing relevant to MS Windows
 
 Tools I am familiar with and often use
@@ -37,23 +36,24 @@ Tools I am familiar with and often use
  (inculdes OS, Platform, FrameWork, Library, Product, DevTools and so
  on)
 
- * Linux(System progrmming, Kernel Dev), MacOSX
- * GCC
+ * Linux(System progrmming, Kernel Hacking), Mac OS X
+ * GCC, GDB, LLVM
  * Erlang/otp, RabbitMQ
  * SBCL, ECL
- * Qt(C++ GUI lib),PyQt
+ * Qt(C++ GUI lib), PyQt
  * CPython, PyPy, WSGI, Tornado, Pylons
+ * MRI, Rubinius, Rails 
  * jQuery
- * apache/nginx/bind(named)/proftpd/subversion/git/hg/trac
+ * apache/nginx/proftpd/subversion/git/hg/trac
  * Redis, Cassandra, Mongo
- * PostgreSQL,SphinxSearch,SQLite
- * |emacs|_/|sphinx|_/|wordpress|_
+ * PostgreSQL, SphinxSearch, SQLite
+ * |emacs|_, |sphinx|_, Graphviz
 
 
 Projects(by reverse chronological order)
 ---------------------------------------------
 
- * A telnetd Server under Linux and SCO: telnetd server with
+ * A telnetd Server under Linux and SCO Unix: telnetd server with
    tty-binding feature.
 
  * A log analyzer [07/2009],Which is based on `Python
