@@ -25,9 +25,8 @@ IT技能
 ------------------------------------------------------------------
 
 
- * **精通/致力于:** Linux, C,  Erlang, Python, |ruby|_, Common Lisp
- * **熟练/也能做:** Java, Perl, JavaScript, Objective-C, C++, Bash
- * **不会做/不能做:**  MS Window平台相关开发
+ * **精通/致力于:** Linux, C, C++,  Erlang, Python, |ruby|_, Common Lisp
+ * **熟练/也能做:** Java, Perl, JavaScript
 
 常用工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
