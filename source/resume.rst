@@ -18,7 +18,7 @@ Personal Infomation
 Education
 -------------
 
-[2002-2006] `Xi'an Jiaotong University <http://www.xjtu.edu.cn>`_, China. 
+[2002-2006] `Xi'an Jiaotong University <http://www.xjtu.edu.cn>`_, China.
 
 
 .. _it_skills_list:
@@ -36,22 +36,24 @@ Tools I am familiar with and often use
  (inculdes OS, Platform, FrameWork, Library, Product, DevTools and so
  on)
 
- * Linux(System progrmming, Kernel Hacking), Mac OS X
+ * Linux(System progrmming, Kernel Hacking)
  * GCC, GDB, LLVM
  * Erlang/otp, RabbitMQ
  * SBCL, ECL
  * Qt(C++ GUI lib), PyQt
- * CPython, PyPy, WSGI, Tornado, Pylons
- * MRI, Rubinius, Rails 
+ * CPython, PyPy, WSGI, Tornado, WebPy
+ * MRI, Rubinius, Rails
  * jQuery
  * apache/nginx/proftpd/subversion/git/hg/trac
- * Redis, Cassandra, Mongo
+ * Redis, Cassandra, Mongo, Riak
  * PostgreSQL, SphinxSearch, SQLite
- * |emacs|_, |sphinx|_, Graphviz
+ * |emacs|_, |sphinx|_, org-mode, Graphviz
 
 
 Projects(by reverse chronological order)
 ---------------------------------------------
+ * :ref:`Redis-LevelDB <redis-leveldb>`: A redis frontend to google's
+   leveldb: Use leveldb as a Redis-Server.
 
  * A telnetd Server under Linux and SCO Unix: telnetd server with
    tty-binding feature.
@@ -77,13 +79,12 @@ Projects(by reverse chronological order)
    route a certain message in a certain queue to a certain
    subscriber. And I implemented this on RabbitMQ 1.5.x.
 
- * `Erlix <http://github.com/KDr2/erlix/>`_: the Ruby interface for
-   Erlang [Began at 07/2009, and who can take this project over? mail
-   me please].
+ * :ref:`Erlix <erlix>`: the Ruby interface for
+   Erlang.
 
- * `SB-FastCGI <http://github.com/KDr2/sb-fastcgi/>`_
+ * :ref:`SB-FastCGI <sb-fastcgi>`
 
- * `CL-FastCGI <http://github.com/KDr2/cl-fastcgi/>`_
+ * :ref:`CL-FastCGI <cl-fastcgi>`
 
  * A Banking Teller System which can run on kinds of platform [after
    09/2007, and now I'm still working on its Android version]. This

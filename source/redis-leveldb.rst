@@ -1,7 +1,12 @@
 .. -*- mode: rst; mode: auto-fill -*-
+.. Redis-LevelDB
+.. author : KDr2
+.. date : 2012-12-27 17:32
+
+
 .. include:: include/glossary.rst
 
-.. redis-leveldb:
+.. _redis-leveldb:
 
 Redis-LevelDB
 =====================

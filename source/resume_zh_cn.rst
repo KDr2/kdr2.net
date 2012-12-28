@@ -33,7 +33,7 @@ IT技能
 
  (包括OS/Platform/FrameWork/Library/Product/DevTools等)
 
- * Linux(System progrmming, Kernel Dev), MacOSX
+ * Linux(System progrmming, Kernel Dev)
  * GCC, GDB, LLVM
  * Erlang/otp, RabbitMQ
  * SBCL, ECL
@@ -42,13 +42,14 @@ IT技能
  * MRI, Rubinius, Rails
  * jQuery
  * nginx/proftpd/subversion/git/hg/trac
- * Redis, Cassandra, Mongo
+ * Redis, Cassandra, Mongo, Riak
  * PostgreSQL,SphinxSearch,SQLite
- * |emacs|_, |sphinx|_, Graphviz
+ * |emacs|_, |sphinx|_, org-mode, Graphviz
 
 
 工作经验
 ---------------------------------------------------------------------
+
 2011.05-今, 北京爱微创想科技有限公司(Appwill Inc.)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -101,7 +102,9 @@ IT技能
    (http://github.com/KDr2/erlix/)
  * SB-FASTCGI : http://github.com/KDr2/sb-fastcgi/
  * CL-FASTCGI : http://github.com/KDr2/cl-fastcgi/
- * More on my github: http://github.com/KDr2/
+ * More on my github:
+   - http://github.com/KDr2/
+   - https://github.com/appwilldev/
 
 其他
 ----------------------------------------------------------------------

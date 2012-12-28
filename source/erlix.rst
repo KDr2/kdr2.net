@@ -1,6 +1,8 @@
-
+.. author : KDr2
 
 .. include:: include/glossary.rst
+
+.. _erlix:
 
 Erlix
 ===================================================

@@ -11,8 +11,7 @@ Recently Updates on This Site
    ocampickle
    blog/pyc_format
    blog/20101128_back_to_dreamhost
-   
-..   
-.. .. xinclude:: include/footer.rst
-..
 
+..
+.. .. include:: include/footer.rst
+..
