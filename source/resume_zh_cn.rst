@@ -1,3 +1,4 @@
+.. -*- mode: rst; mode: auto-fill -*-
 .. KDr2's Resuem
 
 .. _resume_zh_cn:
@@ -16,6 +17,7 @@
  * 工作年龄 : 2006.07-现在
  * EMail : killy.draw#gmail.com
  * WebSite : http://kdr2.net
+ * :ref:`Resume(English Version) <resume>`
 
 教育背景
 -------------------------------------------

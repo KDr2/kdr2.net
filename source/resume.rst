@@ -1,3 +1,4 @@
+.. -*- mode: rst; mode: auto-fill -*-
 .. _resume:
 
 .. include:: include/glossary.rst
