@@ -36,6 +36,7 @@ Open Source Projects
 .. toctree::
    :maxdepth: 1
 
+   redis-leveldb
    sb-fastcgi
    cl-fastcgi
    erlix
@@ -72,4 +73,3 @@ Contact Me
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
-
