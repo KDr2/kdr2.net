@@ -50,7 +50,6 @@ Other Contents
    :maxdepth: 1
 
    schedule
-   tech-plan
    blog/index
    links
 
