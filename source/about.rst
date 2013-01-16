@@ -11,7 +11,7 @@ It's built on Sphinx
 ---------------------
 
 I built this site with |sphinx|_, and I had put its |rst|_ sources on
-|kd@github|_, you can get it freely if you want. 
+|kd@github|_, you can get it freely if you want.
 
 
 Where is my old blog?
@@ -36,12 +36,12 @@ The Source Code updates:
    digraph foo {
       //rankdir=LR;
       fontname="courier new"
-      fontsize=12  
+      fontsize=12
       node [fontname="courier new"
             fontsize=10]
       "web.py(Python)"  -> "Pylons(Python)" [dir=back];
       "Ocamlnet(O'Caml)" -> "Pylons(Python)" [dir=back];
-      "Pylons(Python)" -> "Django(Python)" [dir=back]; 
+      "Pylons(Python)" -> "Django(Python)" [dir=back];
    }
 
 - 2010-09-19 change django_ to pylons_
@@ -53,4 +53,3 @@ The Source Code updates:
 .. .. include:: include/footer.rst
 
 .. include:: include/comments.rst
-

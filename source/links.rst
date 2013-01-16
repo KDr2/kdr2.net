@@ -1,4 +1,4 @@
-
+.. //
 .. include:: include/glossary.rst
 
 Links: Family, Friends, Useful things...
@@ -21,10 +21,12 @@ Tools I'm using
 
 .. csv-table::
 
- |linux|_, |qemu|_, |debian|_, |gcc|_
- |emacs|_,
- |python|_,  |erlang|_, |lua|_, |ocaml|_,  |sbcl|_,  |ecl|_
- |orgmode|_, |graphviz|_, |sphinx|_
+ |linux|_, |qemu|_, |debian|_
+ |emacs|_, |orgmode|_, |graphviz|_, |sphinx|_, TEX, Beamer
+ |gcc|_, |llvm|_, |erlang|_, |lua|_, |python|_, |sbcl|_,  |ecl|_
+ |boost|_, Qt
+ |pgsql|_,
+ |r|_
 
 Useful Things
 ----------------------
@@ -36,5 +38,3 @@ WebTools
 - `4096 Color Wheel
   <http://www.ficml.org/jemimap/style/color/wheel.html>`_
 - `汉典 <http://www.zdic.net/>`_
-
-

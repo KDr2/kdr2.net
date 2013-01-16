@@ -4,6 +4,3 @@
 .. raw:: html
 
   <script type="text/javascript" src="/_static/disqus.js"></script>
-
-
-  

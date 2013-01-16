@@ -101,3 +101,15 @@
 
 .. |graphviz| replace:: Graphviz
 .. _graphviz: http://www.graphviz.org/
+
+.. |pgsql| replace:: PostgreSQL
+.. _pgsql: http://www.postgresql.org/
+
+.. |boost| replace:: Boost
+.. _boost: http://www.boost.org/
+
+.. |llvm| replace:: LLVM
+.. _llvm: http://www.llvm.org
+
+.. |r| replace:: R
+.. _r: http://www.r-project.org/
