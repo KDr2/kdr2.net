@@ -24,7 +24,7 @@ Getting Start
 Frist, install |sbcl|_ and sb-fastcgi asdf-package. Then get a shared
 object of |fcgi|_ (usually named libfcgi.so.*, You can get it by
 installing the package **libfcgi-dev** in your box, after doing that,
-the shared object cat be found at **/usr/lib/libfcgi.so**.
+the shared object can be found at **/usr/lib/libfcgi.so**.
 
 Now, you need load the asdf-package and the libfcgi.so:
 
