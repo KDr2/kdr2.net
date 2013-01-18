@@ -25,7 +25,7 @@ Tools I'm using
  |emacs|_, |orgmode|_, |graphviz|_, |sphinx|_, TEX, Beamer
  |gcc|_, |llvm|_, |erlang|_, |lua|_, |python|_, |sbcl|_,  |ecl|_
  |boost|_, Qt
- |pgsql|_,
+ |pgsql|_
  |r|_
 
 Useful Things
