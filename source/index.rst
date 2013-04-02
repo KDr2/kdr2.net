@@ -25,7 +25,6 @@ Recent Updates
 
 
 .. |LINUX| image:: _static/images/linux-logo-small.png
-.. |OCAML| image:: _static/images/ocaml-logo-small.png
 .. |LISP| image:: _static/images/lisp-logo-small.png
 .. |ERLANG| image:: _static/images/erlang-logo-small.png
 .. |PYTHON| image:: _static/images/python-logo-small.png
@@ -40,8 +39,6 @@ Open Source Projects
    sb-fastcgi
    cl-fastcgi
    erlix
-   ocampickle
-
 
 Other Contents
 ------------------
