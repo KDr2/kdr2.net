@@ -25,9 +25,9 @@ Recent Updates
 
 
 .. |LINUX| image:: _static/images/linux-logo-small.png
-.. |LISP| image:: _static/images/lisp-logo-small.png
 .. |ERLANG| image:: _static/images/erlang-logo-small.png
-.. |PYTHON| image:: _static/images/python-logo-small.png
+.. |JULIA| image:: _static/images/julia-logo-small.png
+.. |LISP| image:: _static/images/lisp-logo-small.png
 
 
 Open Source Projects
