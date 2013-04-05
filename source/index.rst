@@ -36,6 +36,7 @@ Open Source Projects
    :maxdepth: 1
 
    redis-leveldb
+   moochine
    sb-fastcgi
    cl-fastcgi
    erlix
