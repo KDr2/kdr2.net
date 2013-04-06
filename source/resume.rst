@@ -6,10 +6,11 @@
 KDr2's Resume
 ======================
 
-:ref:`简体中文版 <resume_zh_cn>`
+:ref:`查看简体中文版/ Go to Chinese Version <resume_zh_cn>`
 
-Personal Infomation
+Personal Information
 ----------------------
+
 * Birth : 1983
 * Email : a2lsbHkuZHJhd0BnbWFpbC5jb20=
 * Homepage : http://kdr2.net
@@ -28,9 +29,9 @@ IT Skills
 
 * Server Side Programming
 
-  - Linux system programming;
+  - |linux|_ system programming;
   - Network programming;
-  - Database(PostgreSQL and NoSQL like Redis, Riak, etc.)
+  - Database(|pgsql|_ and NoSQL like Redis, Riak, etc.)
 
 * Data Analysis and Statistics
 
@@ -39,13 +40,13 @@ IT Skills
 
 * Desktop Programming
 
-  - X11, GTK, Qt
+  - |x11|_, |gtk|_, |qt|_
 
 * Platforms or Programming Languages I'm using:
 
-  - Linux, C/C++, Erlang, Lua, Common Lisp
-  - R, Julia
-  - Other Scripts: Python, Ruby, Perl, JavaScript
+  - |linux|_, C/C++, |erlang|_, |lua|_, |cl|_
+  - |r|_, |julia|_
+  - Other Scripts: |python|_, |ruby|_, Perl, JavaScript
 
 Tools I am familiar with and often use
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,18 +54,18 @@ Tools I am familiar with and often use
  (inculdes OS, Platform, FrameWork, Library, Product, DevTools and so
  on)
 
- * Linux(System progrmming, Kernel hacking)
- * GCC, GDB, LLVM
- * Erlang/otp, RabbitMQ
- * R, Julia
- * Lua, LuaJit
- * FemtoLisp, ECL, SBCL
- * Qt(C++ GUI lib), PyQt
+ * |linux|_ (System progrmming, Kernel hacking)
+ * |gcc|_, GDB, |llvm|_
+ * |erlang|_/otp, RabbitMQ
+ * |r|_, |julia|_
+ * |lua|_, LuaJit
+ * FemtoLisp, |ecl|_, |sbcl|_
+ * |qt|_ (C++ GUI lib), PyQt
  * CPython, PyPy, WSGI, Tornado, WebPy
  * MRI, Rubinius, Rails
  * jQuery
  * Redis, Riak, Mongo
- * PostgreSQL, SQLite
+ * |pgsql|_, SQLite
  * |emacs|_, |sphinx|_, org-mode, Graphviz, Tex/LaTeX
  * Nginx/Git/hg/subversion/Trac...
 

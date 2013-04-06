@@ -10,10 +10,8 @@ Family
 - `miss-understood <http://miss-understood.net/?from=kdr2>`_
 
 
-Friends
-----------------------
-
-- `APPXCODE <http://www.appxcode.com/?from=kdr2>`_
+.. Friends
+.. ----------------------
 
 
 Tools I'm using
@@ -21,12 +19,13 @@ Tools I'm using
 
 .. csv-table::
 
+ |emacs|_, |orgmode|_, |graphviz|_, |sphinx|_, TeX/LaTeX, Beamer
  |linux|_, |qemu|_, |debian|_
- |emacs|_, |orgmode|_, |graphviz|_, |sphinx|_, TEX, Beamer
- |gcc|_, |llvm|_, |erlang|_, |lua|_, |python|_, |sbcl|_,  |ecl|_
+ |gcc|_, |llvm|_, |erlang|_, |lua|_, |ecl|_, |sbcl|_
+ |r|_, |julia|_
  |boost|_, Qt
  |pgsql|_
- |r|_
+ |python|_, |ruby|_
 
 Useful Things
 ----------------------

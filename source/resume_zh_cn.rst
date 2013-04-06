@@ -7,16 +7,17 @@
 个人简历(简体中文版)
 ==========================================
 
+:ref:`Goto English Version/查看英文版 <resume>`
+
 基本信息
 ------------------------------------------
 
- * 姓名 : 卓××
- * 出生年月 : 1983.**.**
- * 工作年龄 : 2006.07-现在
+ * 姓名 : 卓\_\_
+ * 出生年月 : 1983.\_\_.\_\_
+ * 工作年龄 : 2006.07 - 现在
  * 邮箱 : a2lsbHkuZHJhd0BnbWFpbC5jb20=
  * 个人主页 : http://kdr2.net
  * 电话 : +86 0b10000111 04306 0x0a49
- * :ref:`Resume(English Version) <resume>`
 
 教育背景
 -------------------------------------------
@@ -27,9 +28,9 @@ IT技能
 
 * 服务端开发
 
-  - Linux系统编程
+  - |linux|_ 系统编程
   - 网络编程
-  - 数据存储，数据库(PostgreSQL 以及 Redis, Riak 等 NoSQL)
+  - 数据存储，数据库(|pgsql|_ 以及 Redis, Riak 等 NoSQL)
 
 * 统计与数据分析
 
@@ -38,31 +39,31 @@ IT技能
 
 * 桌面应用程序设计
 
-  - X11, GTK, Qt
+  - |x11|_, |gtk|_, |qt|_
 
 * 常用技术平台及编程语言
 
-  - Linux, C/C++, Erlang, Lua, Common Lisp
+  - |linux|_, C/C++, |erlang|_, |lua|_, |cl|_
   - |r|_, |julia|_
-  - 其他一些脚本: Python, Ruby, Perl, JavaScript
+  - 其他一些脚本: |python|_, |ruby|_, Perl, JavaScript
 
 常用工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
  (包括OS/Platform/FrameWork/Library/Product/DevTools等)
 
- * Linux(System progrmming, Kernel Dev)
- * GCC, GDB, LLVM
- * Erlang/otp, RabbitMQ
- * R, Julia
- * Lua, LuaJit
- * FemtoLisp, ECL, SBCL
- * Qt(C++ GUI lib), PyQt
+ * |linux|_ (System progrmming, Kernel Dev)
+ * |gcc|_, GDB, |llvm|_
+ * |erlang|_/otp, RabbitMQ
+ * |r|_, |julia|_
+ * |lua|_, LuaJit
+ * FemtoLisp, |ecl|_, |sbcl|_
+ * |qt|_ (C++ GUI lib), PyQt
  * CPython, PyPy, WSGI, Tornado, Pylons
  * MRI, Rubinius, Rails
  * jQuery
  * Redis, Riak, Mongo
- * PostgreSQL, SQLite
+ * |pgsql|_, SQLite
  * |emacs|_, |sphinx|_, org-mode, Graphviz, Tex/LaTeX
  * Nginx/Git/hg/subversion/Trac...
 

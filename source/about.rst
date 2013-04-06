@@ -29,6 +29,7 @@ You can subscribe the |rss|_ of this site to watch its content updates.
 
 The Source Code updates:
 
+- 2012-05, use disqus as comment services
 - 2011-06-27 rewrite service using O'Caml/web.py
 
 .. graphviz::

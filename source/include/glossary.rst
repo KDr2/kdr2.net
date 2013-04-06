@@ -78,6 +78,15 @@
 .. |pgsql| replace:: PostgreSQL
 .. _pgsql: http://www.postgresql.org/
 
+.. |qt| replace:: Qt
+.. _qt: http://qt-project.org/
+
+.. |x11| replace:: X11
+.. _x11: http://www.x.org/
+
+.. |gtk| replace:: GTK
+.. _gtk: http://www.gtk.org/
+
 .. =========================================================
 .. third-party external links and jargons
 
