@@ -86,6 +86,14 @@ OpenSource Projects
   - http://github.com/KDr2/
   - https://github.com/appwilldev/
 
+* |julia|_
+
+  - https://github.com/JuliaLang/julia/issues/created_by/KDr2
+  - https://github.com/JuliaLang/julia/commits?author=KDr2
+  - https://github.com/JuliaCN/julia_zh_cn/commits?author=KDr2
+
+* NessDB ...
+
 Work Experience
 ----------------------------------
 

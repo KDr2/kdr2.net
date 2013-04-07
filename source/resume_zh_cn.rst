@@ -67,7 +67,7 @@ IT技能
  * |emacs|_, |sphinx|_, org-mode, Graphviz, Tex/LaTeX
  * Nginx/Git/hg/subversion/Trac...
 
-参与/发起的开源项目
+维护/参与的开源项目
 --------------------------------------------------------------------
 
 * :ref:`Redis-LevelDB <redis-leveldb>`: LevelDB 的 网络前端，兼容
@@ -82,6 +82,14 @@ IT技能
 
   - http://github.com/KDr2/
   - https://github.com/appwilldev/
+
+* |julia|_
+
+  - https://github.com/JuliaLang/julia/issues/created_by/KDr2
+  - https://github.com/JuliaLang/julia/commits?author=KDr2
+  - https://github.com/JuliaCN/julia_zh_cn/commits?author=KDr2
+
+* NessDB ...
 
 工作经历
 ---------------------------------------------------------------------
