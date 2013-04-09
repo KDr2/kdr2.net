@@ -22,20 +22,52 @@ You can get it from https://github.com/appwilldev/redis-leveldb .
 Redis COMMAND Supported
 ------------------------------------------------------------
 
-* incr/incrby
-* get/set
-* mget/mset
-* multi/exec/discard
-* keys
-* info: Different to redis, this info command accepts a flag argument,
-  eg: ``info``, ``info k``, ``info t``, ``info kt``
+* key-value commands:
 
-  * default: show leveldb.stat info
-  * k: show the count of all keys
-  * t: show leveldb.sstables info
+  - incr/incrby
+  - get/set
+  - mget/mset
 
-* select: select db (when redis-leveldb run in multi-db mode, with
-  argument ``-M <num>``)
+* set commands(New):
+
+  - sadd
+  - srem
+  - scard
+  - smembers
+  - sismemeber
+
+* hash commands(New):
+
+  - hget
+  - hset
+  - hsetnx
+  - hdel
+  - hexists
+  - hgetall
+  - hkeys
+  - hvals
+  - hlen
+
+* transaction commands:
+
+  - multi
+  - exec
+  - discard
+
+* connection commans:
+
+  - select: select db (when redis-leveldb run in multi-db mode, with
+    argument ``-M <num>``)
+
+* server commands:
+
+  - keys
+  - info: Different to redis, this info command accepts a flag
+    argument, eg ``info``, ``info k``, ``info t``, ``info kt``
+
+      * default: show leveldb.stat info
+      * k: show the count of all keys
+      * t: show leveldb.sstables info
 
 Dependencies
 ------------------------------------------------------------
