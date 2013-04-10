@@ -17,7 +17,7 @@ Introduction
 Redis-LevelDB is a redis-protocol compatible frontend to google's
 leveldb: Use leveldb as a Redis-Server.
 
-You can get it from https://github.com/appwilldev/redis-leveldb .
+You can get it from https://github.com/KDr2/redis-leveldb .
 
 Redis COMMAND Supported
 ------------------------------------------------------------
