@@ -31,7 +31,8 @@ IT Skills
 
   - |linux|_ system programming;
   - Network programming;
-  - Database(|pgsql|_ and NoSQL like Redis, Riak, etc.)
+  - Database(|pgsql|_ and NoSQL like Redis, Riak, etc.);
+  - Distributed computing, parallel computing.
 
 * Data Analysis and Statistics
 
@@ -44,9 +45,9 @@ IT Skills
 
 * Platforms or Programming Languages I'm using:
 
-  - |linux|_, C/C++, |erlang|_, |lua|_, |cl|_
+  - |linux|_, C/C++, Java, |erlang|_, |lua|_, Clojure, |cl|_
   - |r|_, |julia|_
-  - Other Scripts: |python|_, |ruby|_, Perl, JavaScript
+  - Other Scripts: Bash, |python|_, |ruby|_, Perl ...
 
 Tools I am familiar with and often use
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,7 +55,7 @@ Tools I am familiar with and often use
  (inculdes OS, Platform, FrameWork, Library, Product, DevTools and so
  on)
 
- * |linux|_ (System progrmming, Kernel hacking)
+ * |linux|_, Debian
  * |gcc|_, GDB, |llvm|_
  * |erlang|_/otp, RabbitMQ
  * |r|_, |julia|_
@@ -63,11 +64,11 @@ Tools I am familiar with and often use
  * |qt|_ (C++ GUI lib), PyQt
  * CPython, PyPy, WSGI, Tornado, WebPy
  * MRI, Rubinius, Rails
- * jQuery
- * Redis, Riak, Mongo
+ * Redis, Riak, Hadoop
+ * Nginx
  * |pgsql|_, SQLite
  * |emacs|_, |sphinx|_, org-mode, Graphviz, Tex/LaTeX
- * Nginx/Git/hg/subversion/Trac...
+ * git/hg/subversion/trac...
 
 OpenSource Projects
 ---------------------------------------------
@@ -91,8 +92,6 @@ OpenSource Projects
   - https://github.com/JuliaLang/julia/issues/created_by/KDr2
   - https://github.com/JuliaLang/julia/commits?author=KDr2
   - https://github.com/JuliaCN/julia_zh_cn/commits?author=KDr2
-
-* NessDB ...
 
 Work Experience
 ----------------------------------

@@ -31,6 +31,7 @@ IT技能
   - |linux|_ 系统编程
   - 网络编程
   - 数据存储，数据库(|pgsql|_ 以及 Redis, Riak 等 NoSQL)
+  - 分布式计算, 并行计算
 
 * 统计与数据分析
 
@@ -43,16 +44,16 @@ IT技能
 
 * 常用技术平台及编程语言
 
-  - |linux|_, C/C++, |erlang|_, |lua|_, |cl|_
+  - |linux|_, C/C++, Java, |erlang|_, |lua|_, Clojure, |cl|_
   - |r|_, |julia|_
-  - 其他一些脚本: |python|_, |ruby|_, Perl, JavaScript
+  - 其他一些脚本: Bash, |python|_, |ruby|_, Perl ...
 
 常用工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- (包括OS/Platform/FrameWork/Library/Product/DevTools等)
+ (包括 OS/Platform/FrameWork/Library/Product/DevTools 等)
 
- * |linux|_ (System progrmming, Kernel Dev)
+ * |linux|_, Debian
  * |gcc|_, GDB, |llvm|_
  * |erlang|_/otp, RabbitMQ
  * |r|_, |julia|_
@@ -61,11 +62,11 @@ IT技能
  * |qt|_ (C++ GUI lib), PyQt
  * CPython, PyPy, WSGI, Tornado, Pylons
  * MRI, Rubinius, Rails
- * jQuery
- * Redis, Riak, Mongo
+ * Redis, Riak, Hadoop
+ * Nginx
  * |pgsql|_, SQLite
  * |emacs|_, |sphinx|_, org-mode, Graphviz, Tex/LaTeX
- * Nginx/Git/hg/subversion/Trac...
+ * git/hg/subversion/trac...
 
 维护/参与的开源项目
 --------------------------------------------------------------------
@@ -88,8 +89,6 @@ IT技能
   - https://github.com/JuliaLang/julia/issues/created_by/KDr2
   - https://github.com/JuliaLang/julia/commits?author=KDr2
   - https://github.com/JuliaCN/julia_zh_cn/commits?author=KDr2
-
-* NessDB ...
 
 工作经历
 ---------------------------------------------------------------------
