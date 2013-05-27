@@ -8,6 +8,11 @@ KDr2's Resume
 
 :ref:`查看简体中文版/ Go to Chinese Version <resume_zh_cn>`
 
+Status
+-----------------------
+I'm looking for a new job, please concat me if you want an engineer
+like me.
+
 Personal Information
 ----------------------
 
