@@ -10,8 +10,7 @@ KDr2's Resume
 
 Status
 -----------------------
-I'm looking for a new job, please concat me if you want an engineer
-like me.
+On Vacation.
 
 Personal Information
 ----------------------
@@ -118,5 +117,6 @@ What kind of jobs I prefer?
 * Server Side Development
 * Linux System Programming
 * Statistics and Data Analysis
+* Technology Consulting
 
 .. include:: include/footer.rst
