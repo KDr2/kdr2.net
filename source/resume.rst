@@ -100,8 +100,8 @@ OpenSource Projects
 Work Experience
 ----------------------------------
 
-- 2011.05 - now, Appwill Inc., server side development.
-- 2007.07.28 - 2011.04, AGREE TECH( http://www.agree.com.cn/ ), Middle
+- 2011.05.03 - 2013.06.20, Appwill Inc., server side development.
+- 2007.07.28 - 2011.04.28, AGREE TECH( http://www.agree.com.cn/ ), Middle
   Ware and Teller System development。
 - 2007.05.20 - 2007.07.20,  Maxthon( http://www.maxthon.com/ ), server
   side development, system admin。
