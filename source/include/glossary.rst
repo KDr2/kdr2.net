@@ -63,6 +63,9 @@
 .. |sphinx| replace:: SphinxDoc
 .. _sphinx: http://sphinx.pocoo.org/
 
+.. |java| replace:: Java
+.. _java: http://www.java.com
+
 .. |cl| replace:: Common Lisp
 .. _cl: http://common-lisp.net/
 
@@ -96,15 +99,13 @@
 .. |python| replace:: Python
 .. _python: http://www.python.org
 
+.. |django| replace:: Django
 .. _django: http://www.djangoproject.com/
 
 .. _pylons: http://www.pylonshq.com/
 
 .. |perl| replace:: Perl
 .. _perl: http://www.perl.org
-
-.. |java| replace:: Java
-.. _java: http://www.java.com
 
 .. |ruby| replace:: Ruby
 .. _ruby: http://www.ruby-lang.org
@@ -126,3 +127,9 @@
 
 .. |ocaml| replace:: OCaml
 .. _ocaml: http://caml.inria.fr/ocaml/index.en.html
+
+.. |scala| replace:: Scala
+.. _scala: http://www.scala-lang.org
+
+.. |clj| replace:: Clojure
+.. _clj: http://clojure.org
