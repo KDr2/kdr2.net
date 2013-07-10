@@ -19,7 +19,55 @@
 .. _kd@github: http://github.com/KDr2/kdr2.net
 
 .. =========================================================
-.. useful external links and jargons
+.. Programming Languages
+
+.. |c| replace:: C Programming Language
+.. |cpp| reaplce:: C++ Programming Language
+
+.. |r| replace:: R
+.. _r: http://www.r-project.org/
+
+.. |julia| replace:: Julia
+.. _julia: http://julialang.org/
+
+.. |erlang| replace:: Erlang
+.. _erlang: http://erlang.org
+
+.. |java| replace:: Java
+.. _java: http://www.java.com
+
+.. |scala| replace:: Scala
+.. _scala: http://www.scala-lang.org
+
+.. |clj| replace:: Clojure
+.. _clj: http://clojure.org
+
+.. |python| replace:: Python
+.. _python: http://www.python.org
+
+.. |lua| replace:: Lua
+.. _lua: http://www.lua.org
+
+.. |ruby| replace:: Ruby
+.. _ruby: http://www.ruby-lang.org
+
+.. |perl| replace:: Perl
+.. _perl: http://www.perl.org
+
+.. |cl| replace:: Common Lisp
+.. _cl: http://common-lisp.net/
+
+.. |ecl| replace:: ECL
+.. _ecl: http://ecls.sourceforge.net/
+
+.. |sbcl| replace:: SBCL
+.. _sbcl: http://www.sbcl.org/
+
+.. |ocaml| replace:: OCaml
+.. _ocaml: http://caml.inria.fr/ocaml/index.en.html
+
+.. =========================================================
+.. Develop Tools and Libraries
 
 .. |linux| replace:: Linux
 .. _linux: http://www.kernel.org
@@ -39,17 +87,35 @@
 .. |boost| replace:: Boost
 .. _boost: http://www.boost.org/
 
-.. |r| replace:: R
-.. _r: http://www.r-project.org/
+.. |pgsql| replace:: PostgreSQL
+.. _pgsql: http://www.postgresql.org/
 
-.. |julia| replace:: Julia
-.. _julia: http://julialang.org/
+.. |qt| replace:: Qt
+.. _qt: http://qt-project.org/
 
-.. |erlang| replace:: Erlang
-.. _erlang: http://erlang.org
+.. |x11| replace:: X11
+.. _x11: http://www.x.org/
+
+.. |gtk| replace:: GTK
+.. _gtk: http://www.gtk.org/
 
 .. |emacs| replace:: Emacs
 .. _emacs: http://www.gnu.org/software/emacs/
+
+.. web framework
+.. |django| replace:: Django
+.. _django: http://www.djangoproject.com/
+
+.. _pylons: http://www.pylonshq.com/
+
+.. |fcgi| replace:: FastCGI
+.. _fcgi: http://www.fastcgi.com/
+
+.. |wsgi| replace:: WSGI
+.. _wsgi: http://www.python.org/dev/peps/pep-0333/
+
+.. =========================================================
+.. Documentation Tools
 
 .. |orgmode| replace:: Org-Mode
 .. _orgmode: http://orgmode.org/
@@ -63,52 +129,14 @@
 .. |sphinx| replace:: SphinxDoc
 .. _sphinx: http://sphinx.pocoo.org/
 
-.. |java| replace:: Java
-.. _java: http://www.java.com
-
-.. |cl| replace:: Common Lisp
-.. _cl: http://common-lisp.net/
-
-.. |ecl| replace:: ECL
-.. _ecl: http://ecls.sourceforge.net/
-
-.. |sbcl| replace:: SBCL
-.. _sbcl: http://www.sbcl.org/
-
-.. |lua| replace:: Lua
-.. _lua: http://www.lua.org
-
-.. |pgsql| replace:: PostgreSQL
-.. _pgsql: http://www.postgresql.org/
-
-.. |qt| replace:: Qt
-.. _qt: http://qt-project.org/
-
-.. |x11| replace:: X11
-.. _x11: http://www.x.org/
-
-.. |gtk| replace:: GTK
-.. _gtk: http://www.gtk.org/
+.. |latex| replace:: LeTeX
+.. |tex| replace:: TeX
 
 .. =========================================================
-.. third-party external links and jargons
+.. other external links and jargons
 
 .. |wordpress| replace:: WordPress
 .. _wordpress: http://www.wordpress.org
-
-.. |python| replace:: Python
-.. _python: http://www.python.org
-
-.. |django| replace:: Django
-.. _django: http://www.djangoproject.com/
-
-.. _pylons: http://www.pylonshq.com/
-
-.. |perl| replace:: Perl
-.. _perl: http://www.perl.org
-
-.. |ruby| replace:: Ruby
-.. _ruby: http://www.ruby-lang.org
 
 .. |cczh| replace:: CC3.0 : 自由转载-非商用-非衍生-保持署名
 .. _cczh: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh
@@ -118,18 +146,3 @@
 
 .. |dh| replace:: DreamHost
 .. _dh: http://www.dreamhost.com
-
-.. |fcgi| replace:: FastCGI
-.. _fcgi: http://www.fastcgi.com/
-
-.. |wsgi| replace:: WSGI
-.. _wsgi: http://www.python.org/dev/peps/pep-0333/
-
-.. |ocaml| replace:: OCaml
-.. _ocaml: http://caml.inria.fr/ocaml/index.en.html
-
-.. |scala| replace:: Scala
-.. _scala: http://www.scala-lang.org
-
-.. |clj| replace:: Clojure
-.. _clj: http://clojure.org
