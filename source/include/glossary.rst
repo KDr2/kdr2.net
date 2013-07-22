@@ -22,7 +22,7 @@
 .. Programming Languages
 
 .. |c| replace:: C Programming Language
-.. |cpp| reaplce:: C++ Programming Language
+.. |cpp| replace:: C++ Programming Language
 
 .. |r| replace:: R
 .. _r: http://www.r-project.org/

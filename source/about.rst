@@ -51,6 +51,15 @@ The Source Code updates:
 - 2010-02-04 remove the blog based on |wordpress|_.
 - 2010-01-31 built the first version with |sphinx|_.
 
+
+Donate this site
+--------------------
+
+Donate with paypal
+
+.. include:: include/donate.rst
+
+
 .. .. include:: include/footer.rst
 
 .. include:: include/comments.rst
