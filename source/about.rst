@@ -52,12 +52,17 @@ The Source Code updates:
 - 2010-01-31 built the first version with |sphinx|_.
 
 
-Donate this site
---------------------
+.. Donate this site
 
-Donate with paypal
+   --------------------
 
-.. include:: include/donate.rst
+   通过支付宝捐赠：
+
+.. .. include:: include/donate-alipay.rst
+
+.. Donate with paypal:
+
+.. .. include:: include/donate-paypal.rst
 
 
 .. .. include:: include/footer.rst
