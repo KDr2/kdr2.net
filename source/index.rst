@@ -55,11 +55,11 @@ Contact Me
 -----------------
 
  - `Ask me anything on Tumblr <http://n.kdr2.net/ask>`_
- - skype   : zhuoql
- - gtalk   : |email|
+ - skype   : data:text/plain;base64,emh1b3Fs
  - email   : |email|
- - twitter : |mytwt|_
  - Feed    : |rss|_
+
+.. - twitter : |mytwt|_
 
 .. .. include:: include/footer.rst
 .. include:: include/tumblr.rst
