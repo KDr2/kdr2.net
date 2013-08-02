@@ -43,9 +43,8 @@ IT Skills
   - |r|_ programming;
   - |julia|_ programming;
 
-* Desktop Programming
-
-  - |x11|_, |gtk|_, |qt|_
+.. * Desktop Programming
+..  - |x11|_, |gtk|_, |qt|_
 
 * Platforms or Programming Languages I'm using:
 
