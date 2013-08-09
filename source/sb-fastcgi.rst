@@ -1,4 +1,4 @@
-
+.. -*- mode: rst; mode: auto-fill -*-
 .. include:: include/glossary.rst
 
 .. _sb-fastcgi:
@@ -21,10 +21,11 @@ rather than SBCL, you can refer to :ref:`CL-FastCGI <cl-fastcgi>`
 Getting Start
 ----------------------
 
-Frist, install |sbcl|_ and sb-fastcgi asdf-package. Then get a share
-object of |fcgi|_ (usually named libfcgi.so*). You can get it by
-installing the package **libfcgi-dev** in your box, or by exceuting
-command **make** under the directory **sb-fastcgi/c_src**.
+Frist, install |sbcl|_ and sb-fastcgi asdf-package. Then get a shared
+object of |fcgi|_, usually named libfcgi.so.*, You can get it by
+installing the package **libfcgi-dev** in your box(e.g. `apt-get
+install libfcgi-dev` on |debian|_), after doing that, the shared
+object can be found at **/usr/lib/libfcgi.so**.
 
 Now, you need load the asdf-package and the libfcgi.so:
 

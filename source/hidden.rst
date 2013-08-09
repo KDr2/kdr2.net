@@ -12,4 +12,7 @@ A Hidden Page
    blog/cat
    about
 
+.. include/donate-paypal
+.. include/donate-alipay
+
 .. include:: include/footer.rst

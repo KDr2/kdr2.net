@@ -10,8 +10,8 @@ About This Site
 It's built on Sphinx
 ---------------------
 
-That's obviously.
-
+I built this site with |sphinx|_, and I had put its |rst|_ sources on
+|kd@github|_, you can get it freely if you want.
 
 
 Where is my old blog?
@@ -21,11 +21,15 @@ It's gone, because I hate writting things in an online editor. Since
 now, I will write pages with my |emacs|_ in |rst|_ format, and compile
 them using |sphinx|_.
 
+
 Changelog of this site
 -----------------------
 
-You can subscribe the |rss|_ of this site to watch its changelog.
+You can subscribe the |rss|_ of this site to watch its content updates.
 
+The Source Code updates:
+
+- 2012-05, use disqus as comment services
 - 2011-06-27 rewrite service using O'Caml/web.py
 
 .. graphviz::
@@ -33,12 +37,12 @@ You can subscribe the |rss|_ of this site to watch its changelog.
    digraph foo {
       //rankdir=LR;
       fontname="courier new"
-      fontsize=12  
+      fontsize=12
       node [fontname="courier new"
             fontsize=10]
       "web.py(Python)"  -> "Pylons(Python)" [dir=back];
       "Ocamlnet(O'Caml)" -> "Pylons(Python)" [dir=back];
-      "Pylons(Python)" -> "Django(Python)" [dir=back]; 
+      "Pylons(Python)" -> "Django(Python)" [dir=back];
    }
 
 - 2010-09-19 change django_ to pylons_
@@ -47,7 +51,20 @@ You can subscribe the |rss|_ of this site to watch its changelog.
 - 2010-02-04 remove the blog based on |wordpress|_.
 - 2010-01-31 built the first version with |sphinx|_.
 
-.. include:: include/footer.rst
+
+.. Donate this site
+
+   --------------------
+
+   通过支付宝捐赠：
+
+.. .. include:: include/donate-alipay.rst
+
+.. Donate with paypal:
+
+.. .. include:: include/donate-paypal.rst
+
+
+.. .. include:: include/footer.rst
 
 .. include:: include/comments.rst
-

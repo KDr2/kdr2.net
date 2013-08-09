@@ -11,69 +11,34 @@ Welcome to KDr2's Personal Website!
 
 Hi all, I'm KDr2(you might have seen this online alias ever before
 somewhere), from Beijing, China. And this is a website detailing
-things about me. I built this site with |sphinx|_, and I had put its
-|rst|_ sources on |kd@github|_, you can get it freely if you want.
+things about me.
 
-I'm a programmer, generally I do all of my developments with my laptop
-(MBP MC724). I can write C/C++, |erlang|_, |ocaml|_, |cl|_, |python|_,
-Java, Perl, Javascript and some more programming languages, And I am
-now devoting my mind to the |linux|_, |python|_, |erlang|_, |lua|_, |cl|_ and
-|ocaml|_ development on the server side.
+Here lies the recent updates of the site:
 
-Recently Updates
+Recent Updates
 ------------------
+
 .. toctree::
    :maxdepth: 2
 
    update
 
-What am I doing?
--------------------
 
 .. |LINUX| image:: _static/images/linux-logo-small.png
-.. |OCAML| image:: _static/images/ocaml-logo-small.png
-.. |LISP| image:: _static/images/lisp-logo-small.png
 .. |ERLANG| image:: _static/images/erlang-logo-small.png
-.. |PYTHON| image:: _static/images/python-logo-small.png
-
-- |LINUX| |linux|_ > :ref:`see more on this site>>> <blog_cat_linux>`
-
- - as my daily operating system
- - system programming(using gnu-c/ansi-c with gcc)
- - kernel development
- 
-- |OCAML| |ocaml|_ > :ref:`see more on this site >>> <blog_cat_ocaml>`
-
- - unix system programming
- - the server side development
- - programming language study
- 
-- |LISP| |cl|_ >  :ref:`see more on this site >>> <blog_cat_lisp>`
-
- - programming language study
- - application development
- - the server side development
- 
-- |ERLANG| |erlang|_ >  :ref:`see more on this site >>> <blog_cat_erlang>`
-
- - erlang programming
- - diving into otp and erlang vm 
- 
-- |PYTHON| |python|_ > :ref:`see more on this site >>> <blog_cat_python>`
-
- - scripting
- - some web developping
- - diving into cpython
+.. |JULIA| image:: _static/images/julia-logo-small.png
+.. |LISP| image:: _static/images/lisp-logo-small.png
 
 
 Open Source Projects
-------------------------
+---------------------------
 .. toctree::
    :maxdepth: 1
 
+   redis-leveldb
+   moochine
    sb-fastcgi
    cl-fastcgi
-   ocampickle
    erlix
 
 Other Contents
@@ -82,21 +47,22 @@ Other Contents
 .. toctree::
    :maxdepth: 1
 
-   update
-   scheduler
+   schedule
    blog/index
    links
 
 Contact Me
 -----------------
 
- - skype   : zhuoql
- - gtalk   : |email|
+ - `Ask me anything on Tumblr <http://n.kdr2.net/ask>`_
+ - skype   : data:text/plain;base64,emh1b3Fs
  - email   : |email|
- - twitter : |mytwt|_
  - Feed    : |rss|_
 
-.. include:: include/footer.rst
+.. - twitter : |mytwt|_
+
+.. .. include:: include/footer.rst
+.. include:: include/tumblr.rst
 
 .. Indices and tables
 .. ==================
@@ -104,4 +70,3 @@ Contact Me
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
-

@@ -134,3 +134,6 @@ function setup_block(){
 if(need_show_comments()){
     $(document).ready(setup_block);
 }
+
+
+

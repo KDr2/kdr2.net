@@ -39,7 +39,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u"KDr2's Personal Website"
-copyright = u'2010, KDr2'
+copyright = u'2010-2012, KDr2'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -61,7 +61,10 @@ release = '1.0'
 #today_fmt = '%B %d, %Y'
 
 # List of documents that shouldn't be included in the build.
-unused_docs = ['include/comments','include/glossary','include/footer',]
+unused_docs = ['include/comments',
+               'include/glossary',
+               'include/footer',
+               'include/tumblr']
 
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.

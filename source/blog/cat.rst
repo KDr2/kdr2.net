@@ -1,38 +1,11 @@
 
 .. include:: ../include/glossary.rst
 
-Blog Categories
-==================
+.. _blog_cat:
 
-Cat: Linux
--------------------
-.. _blog_cat_linux:
+Blog: Archived by Categories
+==============================
 
-.. toctree::
-   :maxdepth: 1
-
-Cat: OCaml
--------------------
-.. _blog_cat_ocaml:
-
-.. toctree::
-   :maxdepth: 1
-
-
-Cat: Erlang
--------------------
-.. _blog_cat_erlang:
-
-.. toctree::
-   :maxdepth: 1
-
-
-Cat: Common Lisp
--------------------
-.. _blog_cat_lisp:
-
-.. toctree::
-   :maxdepth: 1
 
 Cat: Python
 -------------------
@@ -42,6 +15,14 @@ Cat: Python
    :maxdepth: 1
 
    pyc_format
+
+Cat: Misc
+-------------------
+.. _blog_cat_misc:
+
+.. toctree::
+   :maxdepth: 1
+   
    20101128_back_to_dreamhost
 
 

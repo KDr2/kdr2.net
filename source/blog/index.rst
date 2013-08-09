@@ -1,9 +1,10 @@
 
 .. include:: ../include/glossary.rst
 
-KDr2's Simple Weblog
+Blog: Archived by Date
 ========================
 
+:ref:`Archived By Categories <blog_cat>`
 
 2010
 ------------------------------
