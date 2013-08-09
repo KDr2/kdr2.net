@@ -64,6 +64,8 @@ Contact Me
 .. .. include:: include/footer.rst
 .. include:: include/tumblr.rst
 
+.. include:: include/gad_banner.rst
+
 .. Indices and tables
 .. ==================
 
