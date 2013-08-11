@@ -25,6 +25,11 @@ Education
 
 [2002-2006] `Xi'an Jiaotong University <http://www.xjtu.edu.cn>`_, China.
 
+Languages
+-------------
+
+* Chinese (Simplified): Speaking and Writing
+* English: Reading/Writing
 
 .. _it_skills_list:
 
@@ -98,6 +103,8 @@ OpenSource Projects
 
 Work Experience
 ----------------------------------
+
+Please email me to get more details of this section, if you need.
 
 - 2011.05.03 - 2013.06.20, Appwill Inc., server side development.
 - 2007.07.28 - 2011.04.28, AGREE TECH( http://www.agree.com.cn/ ), Middle
