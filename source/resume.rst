@@ -43,10 +43,9 @@ IT Skills
   - Database(|pgsql|_ and NoSQL like Redis, Riak, etc.);
   - Distributed computing, parallel computing.
 
-* Data Analysis and Statistics
-
-  - |r|_ programming;
-  - |julia|_ programming;
+.. * Data Analysis and Statistics
+..  - |r|_ programming;
+..  - |julia|_ programming;
 
 .. * Desktop Programming
 ..  - |x11|_, |gtk|_, |qt|_
@@ -65,18 +64,18 @@ Tools I am familiar with and often use
 
  * |linux|_, Debian
  * |gcc|_, GDB, |llvm|_
- * |erlang|_/otp, RabbitMQ
- * |r|_, |julia|_
+ * Python, PyPy, WSGI, Tornado, WebPy
  * |lua|_, LuaJit
- * FemtoLisp, |ecl|_, |sbcl|_
- * |qt|_ (C++ GUI lib), PyQt
- * CPython, PyPy, WSGI, Tornado, WebPy
- * MRI, Rubinius, Rails
+ * |erlang|_/otp, RabbitMQ
  * Redis, Riak, Hadoop
  * Nginx
  * |pgsql|_, SQLite
  * |emacs|_, |sphinx|_, org-mode, Graphviz, Tex/LaTeX
- * git/hg/subversion/trac...
+ * git/hg/subversion/redmine/trac...
+ * |r|_, |julia|_
+ * FemtoLisp, |ecl|_, |sbcl|_
+ * |qt|_ (C++ GUI lib), PyQt
+ * MRI, Rubinius, Rails
 
 OpenSource Projects
 ---------------------------------------------
@@ -122,7 +121,6 @@ What kind of jobs I prefer?
 
 * Server Side Development
 * Linux System Programming
-* Statistics and Data Analysis
-* Technology Consulting
+.. * Statistics and Data Analysis
 
 .. include:: include/footer.rst

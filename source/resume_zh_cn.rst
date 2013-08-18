@@ -43,11 +43,6 @@ IT技能
   - 数据存储，数据库(|pgsql|_ 以及 Redis, Riak 等 NoSQL)
   - 分布式计算, 并行计算
 
-* 统计与数据分析
-
-  - |r|_ 编程设计
-  - |julia|_ 程序设计
-
 .. * 桌面应用程序设计
 ..  - |x11|_, |gtk|_, |qt|_
 
@@ -57,6 +52,7 @@ IT技能
   - |r|_, |julia|_
   - 其他一些脚本: Bash, |python|_, |ruby|_, Perl ...
 
+
 常用工具
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -64,18 +60,18 @@ IT技能
 
  * |linux|_, Debian
  * |gcc|_, GDB, |llvm|_
- * |erlang|_/otp, RabbitMQ
- * |r|_, |julia|_
+ * Python, PyPy, WSGI, Tornado, WebPy
  * |lua|_, LuaJit
- * FemtoLisp, |ecl|_, |sbcl|_
- * |qt|_ (C++ GUI lib), PyQt
- * CPython, PyPy, WSGI, Tornado, Pylons
- * MRI, Rubinius, Rails
+ * |erlang|_/otp, RabbitMQ
  * Redis, Riak, Hadoop
  * Nginx
  * |pgsql|_, SQLite
  * |emacs|_, |sphinx|_, org-mode, Graphviz, Tex/LaTeX
- * git/hg/subversion/trac...
+ * git/hg/subversion/redmine/trac...
+ * |r|_, |julia|_
+ * FemtoLisp, |ecl|_, |sbcl|_
+ * |qt|_ (C++ GUI lib), PyQt
+ * MRI, Rubinius, Rails
 
 维护/参与的开源项目
 --------------------------------------------------------------------
@@ -119,6 +115,6 @@ IT技能
 ----------------------------------------------------------------------
 
  * 自由并活跃的技术环境
- * 服务端开发，Linux系统编程，数据分析相关，技术顾问
+ * 服务端开发，Linux系统编程
 
 .. include:: include/footer.rst
