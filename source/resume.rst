@@ -18,7 +18,7 @@ Personal Information
 * Birth : 1983
 * Email : a2lsbHkuZHJhd0BnbWFpbC5jb20=
 * Homepage : http://kdr2.net
-* CellPhone : +86 0b10000111 04306 0x0a49
+* CellPhone : +86 0b10111010 05532 0x0636
 
 Education
 -------------
