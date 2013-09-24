@@ -10,7 +10,7 @@ Welcome to KDr2's Personal Website!
 ===================================================
 
 Hi all, I'm KDr2(you might have seen this online alias ever before
-somewhere), from Shannxi, Xi'an, China. And this is a website detailing
+somewhere), from XI'AN, SHANNXI, China. And this is a website detailing
 things about me.
 
 Here lies the recent updates of the site:
