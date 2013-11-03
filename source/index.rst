@@ -9,26 +9,12 @@
 Welcome to KDr2's Personal Website!
 ===================================================
 
-Hi all, I'm KDr2(you might have seen this online alias ever before
-somewhere), from XI'AN, SHANNXI, China. And this is a website detailing
-things about me.
-
-Here lies the recent updates of the site:
-
-Recent Updates
+Attention!!!
 ------------------
 
-.. toctree::
-   :maxdepth: 2
-
-   update
-
-
-.. |LINUX| image:: _static/images/linux-logo-small.png
-.. |ERLANG| image:: _static/images/erlang-logo-small.png
-.. |JULIA| image:: _static/images/julia-logo-small.png
-.. |LISP| image:: _static/images/lisp-logo-small.png
-
+This site is deprecated now, please go to http://kdr2.com (my new web
+site) or http://kdr2.net (my tumblr) if you want get non-outdated
+things, thanks. 
 
 Open Source Projects
 ---------------------------
@@ -51,24 +37,3 @@ Other Contents
    blog/index
    links
 
-Contact Me
------------------
-
- - `Ask me anything on Tumblr <http://n.kdr2.net/ask>`_
- - skype   : data:text/plain;base64,emh1b3Fs
- - email   : |email|
- - Feed    : |rss|_
-
-.. - twitter : |mytwt|_
-
-.. .. include:: include/footer.rst
-.. include:: include/tumblr.rst
-
-.. include:: include/gad_banner.rst
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
