@@ -6,7 +6,7 @@
 
 .. include:: include/glossary.rst
 
-Welcome to KDr2's Personal Website!
+[Deprecated! ]KDr2's Website, the old version!
 ===================================================
 
 Attention!!!
